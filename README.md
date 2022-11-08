@@ -12,7 +12,19 @@ Font
 
 Gör en fontfamily - ifall första fonten krashar, vad ska vara ersättningen. 
 
+Att tänka på för oss:
+----------------
 Mobile first approach.
+
+Använd em, rem etc.
+
+Att döpa klasser rimligt.
+
+Strukturera css utifrån html delarna. 
+
+Lägg kommentarer.
+
+
 
 
 
