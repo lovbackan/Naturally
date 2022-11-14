@@ -47,6 +47,7 @@ nav {
 .mobileHeaderButton {
     width: 14.563rem;
     height: 2.088rem;
+    border-radius: 0.261rem;
 }
 /* HEADER-------------------- */
 
@@ -67,4 +68,17 @@ nav {
     height: 20.438rem;
     background-color: aqua;
     border: 1px solid black;
+}
+
+.verySmallPictureBox {
+    width: 9.625rem;
+    height: 6.188rem;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.memberButtonMobile {
+    width: 17.413rem;
+    height: 2.5rem;
+    border-radius: 0.438rem;
 }
