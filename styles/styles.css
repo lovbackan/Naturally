@@ -7,11 +7,14 @@ body {
     padding: 0;
 }
 
+header {
+    height: 36.063rem;
+    background-color: blueviolet;
+    border-bottom: 3px solid black;
+}
 
 nav {
     height: 4.25rem;
-    width: max-content;
-
     background-color: aqua;
     display: flex;
     justify-content: space-between;
