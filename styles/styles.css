@@ -1,5 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
 nav {
     height: 4.25rem;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hamburger {
+    margin-left: 10px;
+}
+
+.nav-icons svg {
+    margin: 5px;
 }
 
 
