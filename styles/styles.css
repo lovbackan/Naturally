@@ -58,4 +58,10 @@ nav {
 .smallPictureBox {
     width: 9.563rem;
     height: 9.563rem;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.mediumPictureBox {
+    width: ;
 }
