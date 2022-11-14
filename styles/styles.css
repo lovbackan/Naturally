@@ -10,8 +10,6 @@ body {
 
 nav {
     height: 4.25rem;
-    width: max-content;
-
     background-color: aqua;
     display: flex;
     justify-content: space-between;
