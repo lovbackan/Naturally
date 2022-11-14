@@ -52,3 +52,8 @@ nav {
 .buttonColor {
     background-color: #585858;
 }
+
+.smallPictureBox {
+    width: 9.563rem;
+    height: 9.563rem;
+}
