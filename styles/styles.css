@@ -10,10 +10,8 @@ body {
 
 nav {
     height: 4.25rem;
-<<<<<<< HEAD
     width: max-content;
 
-=======
     background-color: aqua;
     display: flex;
     justify-content: space-between;
@@ -32,12 +30,18 @@ nav {
 
 .nav-icons svg {
     margin: 5px;
->>>>>>> 127eeaf35e6bc61c760bfaa9d9d9f94b17c8aba6
 }
-
-
 
 .mobileButtonPopup {
     width: 17.438rem;
     height: 2.5rem;
+}
+
+.mobileHeaderButton {
+    width: 14.563rem;
+    height: 2.088rem;
+}
+
+.buttonColor {
+    background-color: #585858;
 }
