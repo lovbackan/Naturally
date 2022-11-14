@@ -6,13 +6,13 @@ body {
     margin: 0;
     padding: 0;
 }
-
+/* HEADER--------------- */
 header {
     height: 36.063rem;
     background-color: blueviolet;
     border-bottom: 3px solid black;
 }
-
+/* NAVBAR--------------- */
 nav {
     height: 4.25rem;
     background-color: aqua;
@@ -35,6 +35,8 @@ nav {
     margin: 5px;
 }
 
+/* NAVBAR---------------- */
+
 .mobileButtonPopup {
     width: 17.438rem;
     height: 2.5rem;
@@ -44,6 +46,8 @@ nav {
     width: 14.563rem;
     height: 2.088rem;
 }
+/* HEADER-------------------- */
+
 
 .buttonColor {
     background-color: #585858;
