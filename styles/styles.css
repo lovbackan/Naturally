@@ -63,5 +63,8 @@ nav {
 }
 
 .mediumPictureBox {
-    width: ;
+    width:20.438rem ;
+    height: 20.438rem;
+    background-color: aqua;
+    border: 1px solid black;
 }
