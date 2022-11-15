@@ -7,11 +7,15 @@ body {
     padding: 0;
 }
 
+button {
+    background-color: #5E6880;
+    color: white;
+}
+
 
 /* HEADER--------------- */
 header {
     height: 36.063rem;
-    background-color: blueviolet;
     border-bottom: 3px solid black;
     display: flex;
     flex-direction: column;
@@ -22,7 +26,6 @@ header {
 /* NAVBAR--------------- */
 nav {
     height: 4.25rem;
-    background-color: aqua;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,7 +74,7 @@ main {
 }
 
 .colorBlue {
-    color: #344258;
+    color: #5E6880;
 }
 
 .colorBeige {
@@ -84,7 +87,7 @@ main {
 }
 
 .backgroundBlue {
-    background-color:#344258 ;
+    background-color:#5E6880 ;
 }
 
 .buttonColor {
