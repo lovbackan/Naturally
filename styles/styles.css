@@ -51,6 +51,13 @@ nav {
 }
 /* HEADER-------------------- */
 
+.colorBlue {
+    background-color: #344258;
+}
+
+.colorBeige {
+    background-color: #f0e9e5;
+}
 
 .buttonColor {
     background-color: #585858;
@@ -84,6 +91,4 @@ nav {
     border-radius: 0.156rem;
 }
 
-footer {
-    background-color: goldenrod;
-}
+
