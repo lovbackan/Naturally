@@ -55,6 +55,10 @@ nav {
 }
 /* HEADER-------------------- */
 
+.pictureGrid {
+
+}
+
 .colorBlue {
     background-color: #344258;
 }
@@ -72,22 +76,22 @@ nav {
     height: 2.5rem;
     border-radius: 0.438rem;
 }
-.mediumPictureBox {
+.packPicture {
     width:20.438rem ;
     height: 20.438rem;
     background-color: aqua;
     border: 1px solid black;
     border-radius: 1.25rem;
 }
-.smallPictureBox {
-    width: 9.563rem;
-    height: 9.563rem;
+.gridPictures{
+    width: 9.625rem; 
+    height: 9.625rem;
     background-color: aqua;
     border: 1px solid black;
     border-radius: 0.585rem;
 }
 
-.verySmallPictureBox {
+.policyPicture {
     width: 9.625rem;
     height: 6.188rem;
     background-color: aqua;
