@@ -13,6 +13,10 @@ header {
     height: 36.063rem;
     background-color: blueviolet;
     border-bottom: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
 }
 /* NAVBAR--------------- */
 nav {
