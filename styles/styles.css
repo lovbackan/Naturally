@@ -51,6 +51,7 @@ nav {
 .mobileHeaderButton {
     width: 14.563rem;
     height: 2.088rem;
+    border-radius: 0.261rem;
 }
 /* HEADER-------------------- */
 
@@ -59,13 +60,34 @@ nav {
     background-color: #585858;
 }
 
+.memberButtonMobile {
+    width: 17.413rem;
+    height: 2.5rem;
+    border-radius: 0.438rem;
+}
+.mediumPictureBox {
+    width:20.438rem ;
+    height: 20.438rem;
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 1.25rem;
+}
 .smallPictureBox {
     width: 9.563rem;
     height: 9.563rem;
     background-color: aqua;
     border: 1px solid black;
+    border-radius: 0.585rem;
 }
 
-.mediumPictureBox {
-    width: ;
+.verySmallPictureBox {
+    width: 9.625rem;
+    height: 6.188rem;
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 0.156rem;
+}
+
+footer {
+    background-color: goldenrod;
 }
