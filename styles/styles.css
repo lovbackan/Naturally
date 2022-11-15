@@ -55,8 +55,13 @@ nav {
 }
 /* HEADER-------------------- */
 
-.pictureGrid {
+.productDisplay {
+    background-color: beige;
+    border: 1px solid black;
+}
 
+.pictureGrid h2 {
+    display: block;
 }
 
 .colorBlue {
