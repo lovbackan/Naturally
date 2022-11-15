@@ -60,9 +60,11 @@ nav {
 main {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 0 10px;
 }
 
+/* PRODUCT SECTION */
 .productDisplay {
     background-color: grey;
     border: 1px solid black;
@@ -79,6 +81,24 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* CLIMATE PART */
+
+.climatePart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.checkBoxCircle {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.checkBoxCircle h3 {
+    margin-left: 20px;
 }
 
 .colorBlue {
