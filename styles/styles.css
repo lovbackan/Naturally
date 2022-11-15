@@ -64,13 +64,21 @@ main {
 }
 
 .productDisplay {
-    background-color: beige;
+    background-color: grey;
     border: 1px solid black;
 }
 
 .gridContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.productPrice {
+    max-width: 9.625rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .colorBlue {
