@@ -65,11 +65,20 @@ nav {
 }
 
 .colorBlue {
-    background-color: #344258;
+    color: #344258;
 }
 
 .colorBeige {
+    color: #f0e9e5;
+    
+}
+
+.backgroundBeige {
     background-color: #f0e9e5;
+}
+
+.backgroundBlue {
+    background-color:#344258 ;
 }
 
 .buttonColor {
