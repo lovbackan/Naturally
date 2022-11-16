@@ -132,7 +132,9 @@ main {
     flex-direction: row-reverse;
 }
 
+/* NEWPRODUCTS---------- */
 
+.newProduct {}
 
 .colorBlue {
     color: #5E6880;
