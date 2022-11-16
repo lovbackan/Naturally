@@ -4,7 +4,9 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 1rem;
+    z-index: 0;
+    position: relative;
+
 }
 
 nav {
@@ -35,3 +37,39 @@ nav {
 .nav-icons svg {
     margin: 5px;
 }
+
+/* DROPDOWN-MENY----------------- */
+.dropDown {
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    position: absolute;
+    top: 68px;
+    height: 31.813rem;
+    width: 100%;
+}
+
+.dropDown ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.dropDown li {
+    list-style: none;
+}
+
+.dropDown li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 1rem;
+}
+
+.dropDownLogo {
+    width: 16.151rem;
+    margin: 0 auto;
+}
+
+
