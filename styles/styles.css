@@ -21,6 +21,26 @@ button {
     font-size: 14px;
 }
 
+.colorBlue {
+    color: #5E6880;
+}
+
+.colorBeige {
+    color: #f0e9e5;
+    
+}
+
+.backgroundBeige {
+    background-color: #f0e9e5;
+}
+
+.backgroundBlue {
+    background-color:#5E6880 ;
+}
+
+.buttonColor {
+    background-color: #585858;
+}
 .mobileButtonPopup {
     width: 17.438rem;
     height: 2.5rem;
@@ -111,26 +131,6 @@ button {
     text-align: center;
 }
 
-.colorBlue {
-    color: #5E6880;
-}
-
-.colorBeige {
-    color: #f0e9e5;
-    
-}
-
-.backgroundBeige {
-    background-color: #f0e9e5;
-}
-
-.backgroundBlue {
-    background-color:#5E6880 ;
-}
-
-.buttonColor {
-    background-color: #585858;
-}
 
 .memberButtonMobile {
     width: 17.413rem;
