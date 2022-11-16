@@ -39,7 +39,11 @@ nav {
 }
 
 /* DROPDOWN-MENY----------------- */
+
 .dropDown {
+    display: none;
+}
+.dropDown.active{
     background-color: aqua;
     margin: 0;
     padding: 0;
@@ -48,6 +52,9 @@ nav {
     top: 68px;
     height: 31.813rem;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .dropDown ul {
