@@ -1,0 +1,23 @@
+footer {
+    height: 27.813rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footerInfoText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 1rem;
+}
+
+.socialMediaIcons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerLogo {
+    text-align: center;
+    
+}

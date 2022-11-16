@@ -1,0 +1,30 @@
+header {
+    height: 36.063rem;
+    border-bottom: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+nav {
+    height: 4.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hamburger {
+    margin-left: 10px;
+}
+
+.nav-icons svg {
+    margin: 5px;
+}
