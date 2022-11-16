@@ -1,14 +1,44 @@
 @font-face {
-    font-family: 'Afterglow';
-    src: url(/fonts/Afterglow-Regular.ttf) format('ttf');
+    font-family: "Afterglow";
+    src: local("Afterglow"), url(/fonts/Afterglow-Regular.ttf) format("truetype");
   }
 
 @font-face {
-    font-family: 'SplineSans';
-    src: url(/fonts/Spline_Sans/static/SplineSans-Regular.ttf) format('ttf');
+    font-family: "SplineSans";
+    src: local("SplineSans"), url(/fonts/Spline_Sans/static/SplineSans-Light.ttf) format("truetype");
   }
 
 @font-face {
-    font-family: 'Alegreya_sans';
-    src: url(/fonts/Alegreya_Sans_SC/AlegreyaSansSC-Regular.ttf) format('ttf');
+    font-family: "AlegreyaSans";
+    src: local("AlegreyaSans"), url(/fonts/Alegreya_Sans_SC/AlegreyaSansSC-Light.ttf) format("truetype");
   }
+
+.afterGlow40px {
+    font-family: "Afterglow";
+    font-size: 40px;
+}
+
+.afterGlow20px {
+    font-family: "Afterglow";
+    font-size: 20px;
+}
+
+
+.splineSans20px {
+    font-family: "SplineSans";
+    font-size: 20px;
+}
+.splineSans16px {
+    font-family: "SplineSans";
+    font-size: 16px;
+}
+
+.splineSans14px {
+    font-family: "SplineSans";
+    font-size: 14px;
+}
+
+.alegreyaSans32px {
+    font-family: "AlegreyaSans";
+    font-size: 32px;
+}
