@@ -12,13 +12,3 @@
     font-family: 'Alegreya_sans';
     src: url(/fonts/Alegreya_Sans_SC/AlegreyaSansSC-Regular.ttf) format('ttf');
   }
-
-h3 {
-    font-size: 20px;
-    font-family: SpliseSans;
-}
-
-p {
-    font-family: SplineSans;
-    font-size: 16px;
-}
