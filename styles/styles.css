@@ -188,3 +188,25 @@ main {
 /* FOOTER---------- */
 
 
+
+
+
+
+
+
+/* FONTS */
+
+@font-face {
+    font-family: 'Afterglow';
+    src: url(/fonts/Afterglow-Regular.ttf) format('ttf');
+  }
+
+@font-face {
+    font-family: 'SplineSans';
+    src: url(/fonts/Spline_Sans/static/SplineSans-Regular.ttf) format('ttf');
+  }
+
+@font-face {
+    font-family: 'Alegreya_sans';
+    src: url(/fonts/Alegreya_Sans/AlegreyaSans-Regular.ttf) format('ttf');
+  }
