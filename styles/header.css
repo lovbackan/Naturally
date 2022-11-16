@@ -70,9 +70,20 @@ nav {
 .dropDown li a {
     text-decoration: none;
     display: block;
-    color: black;
+    color: white;
     padding: 1rem;
+    font-family: "SplineSans";
+    font-size: 16px;
 }
+
+.dropDown a {
+    text-decoration: none;
+    color: white;
+    font-family: "SplineSans";
+    font-size: 16px;
+    
+}
+
 
 .dropDownLogo {
     width: 16.151rem;
