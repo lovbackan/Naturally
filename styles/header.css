@@ -21,9 +21,16 @@ nav {
     justify-content: space-between;
 }
 
+.hamburgerContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
 .hamburger {
     margin-left: 10px;
 }
+
+
 
 .nav-icons svg {
     margin: 5px;
