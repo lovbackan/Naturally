@@ -13,6 +13,28 @@
     src: local("AlegreyaSans"), url(/fonts/Alegreya_Sans_SC/AlegreyaSansSC-Light.ttf) format("truetype");
   }
 
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    
+}
+p {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
 .afterGlow40px {
     font-family: "Afterglow";
     font-size: 40px;
