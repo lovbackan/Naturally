@@ -90,4 +90,12 @@ nav {
     margin: 0 auto;
 }
 
+.langContainer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
 
+.langSetting {
+    margin-right: 1rem;
+}
