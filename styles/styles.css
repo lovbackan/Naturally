@@ -84,12 +84,12 @@ button {
 .checkBoxCircle {
     margin-top: 1rem;
     display: flex;
-    align-items: flex-start;
     justify-content: space-between;
+    align-items: center;
 }
 
-.checkBoxCircle h3 {
-    margin-left: 20px;
+.checkBoxCircle h4 {
+    margin-left: 1rem;
 }
 
 /* COMPANY POLICY */
