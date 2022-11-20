@@ -21,6 +21,11 @@ button {
     font-size: 14px;
 }
 
+.alignLeft {
+    text-align: left;
+}
+
+
 
 .colorBlue {
     color: #5E6880;
