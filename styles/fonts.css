@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: "SplineSans";
-    src: local("SplineSans"), url(/fonts/Spline_Sans/static/SplineSans-Light.ttf) format("truetype");
+    src: local("SplineSans"), url(/fonts/Spline_Sans/static/SplineSans-Regular.ttf) format("truetype");
   }
 
 @font-face {
@@ -63,7 +63,7 @@ p {
     font-size: 14px;
 }
 
-.alegreyaSans30px {
+.alegreyaSans32px {
     font-family: "AlegreyaSans";
-    font-size: 30px;
+    font-size: 32px;
 }
