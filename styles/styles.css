@@ -7,12 +7,14 @@ body {
 }
 
 main {
-    margin-top: 1rem;
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
-    padding: 0 10px;
+    gap: 4rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+
 }
 button {
     background-color: #5E6880;
@@ -23,6 +25,14 @@ button {
 
 .alignLeft {
     text-align: left;
+}
+
+.marginTop24px {
+    margin-top: 1.5rem;
+}
+
+.marginBottom64px {
+    margin-bottom: 4rem;
 }
 
 
@@ -56,6 +66,7 @@ button {
     width: 14.75rem;
     height: 2.5rem;
     border-radius: 0.25rem;
+    margin-top: 2rem;
 }
 /* HEADER-------------------- */
 
@@ -70,6 +81,7 @@ button {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+    margin-top: 1.5rem;
 }
 
 .productPrice {
@@ -88,6 +100,10 @@ button {
     
 }
 
+.packPicture {
+    margin-top: 1.5rem;
+}
+
 .boxCircleContainer {
 width: 90%;
 align-items: flex-start;
@@ -103,6 +119,7 @@ align-items: flex-start;
 .checkBoxCircle h4 {
     margin-left: 1rem;
 }
+
 
 /* COMPANY POLICY */
 
