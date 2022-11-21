@@ -38,6 +38,14 @@ nav {
     margin: 10px;
 }
 
+.heroContainer img {
+    position:absolute;
+    right: 0;
+    
+
+}
+
+
 /* DROPDOWN-MENY----------------- */
 
 .dropDown {
