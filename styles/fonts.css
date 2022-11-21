@@ -16,11 +16,15 @@
 h2 {
     margin: 0;
     padding: 0;
+    margin-left: 1.2rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
 h3 {
     margin: 0;
     padding: 0;
+    margin-top: 3rem;
 }
 
 h4 {
@@ -59,7 +63,7 @@ p {
     font-size: 14px;
 }
 
-.alegreyaSans32px {
+.alegreyaSans30px {
     font-family: "AlegreyaSans";
-    font-size: 32px;
+    font-size: 30px;
 }
