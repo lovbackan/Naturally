@@ -9,7 +9,7 @@ footer {
 .footerInfoText {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    gap: 1.5rem;
     margin-left: 1rem;
 }
 
