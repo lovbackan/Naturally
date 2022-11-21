@@ -31,8 +31,15 @@ button {
     margin-top: 1.5rem;
 }
 
+.marginTop16px {
+    margin-top: 1rem;
+}
 .marginBottom64px {
     margin-bottom: 4rem;
+}
+
+.marginBottom16px {
+    margin-bottom: 1rem;
 }
 
 
@@ -80,7 +87,7 @@ button {
 .gridContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 1rem;
     margin-top: 1.5rem;
 }
 
@@ -177,7 +184,10 @@ align-items: flex-start;
     height: 9.625rem;
     border: 1px solid black;
     border-radius: 0.585rem;
+
 }
+
+
 
 .policyPicture {
     width: 9.625rem;
