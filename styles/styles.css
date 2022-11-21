@@ -42,6 +42,9 @@ button {
     margin-bottom: 1rem;
 }
 
+.lineHeight24px {
+    line-height: 1.5rem;
+}
 
 
 .colorBlue {
