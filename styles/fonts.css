@@ -3,15 +3,27 @@
     src: local("Afterglow"), url(/fonts/Afterglow-Regular.ttf) format("truetype");
   }
 
+  @font-face {
+    font-family: "playFair";
+    src: local("playFair"), url(/fonts/Playfair_Display/static/PlayfairDisplay-Medium.ttf) format("truetype");
+  }
+
+
 @font-face {
     font-family: "SplineSans";
     src: local("SplineSans"), url(/fonts/Spline_Sans/static/SplineSans-Regular.ttf) format("truetype");
   }
 
+  @font-face {
+    font-family: "SplineSansSemiBold";
+    src: local("SplineSansSemiBold"), url(/fonts/Spline_Sans/static/SplineSans-SemiBold.ttf) format("truetype");
+  }
 @font-face {
     font-family: "AlegreyaSans";
     src: local("AlegreyaSans"), url(/fonts/Alegreya_Sans_SC/AlegreyaSansSC-Light.ttf) format("truetype");
   }
+
+
 
 h2 {
     margin: 0;
@@ -44,6 +56,18 @@ p {
     font-size: 20px;
 }
 
+.playFair40px {
+    font-family: "playFair";
+    font-size: 40px;
+    line-height: 42px;
+}
+
+.playFair20px {
+    font-family: "playFair";
+    font-size: 20px;
+    line-height: 42px;
+}
+
 
 .splineSans20px {
     font-family: "SplineSans";
@@ -54,6 +78,12 @@ p {
     font-size: 16px;
 }
 
+.splineSansSemiBold16px {
+    font-family: "SplineSansSemiBold";
+    font-size: 16px;
+}
+
+
 .splineSans14px {
     font-family: "SplineSans";
     font-size: 14px;
@@ -63,3 +93,4 @@ p {
     font-family: "AlegreyaSans";
     font-size: 32px;
 }
+

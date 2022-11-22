@@ -21,6 +21,7 @@ button {
     color: white;
     font-family: SplineSans;
     font-size: 14px;
+    border-style: none;
 }
 
 .alignLeft {
@@ -40,6 +41,16 @@ button {
 
 .marginBottom16px {
     margin-bottom: 1rem;
+}
+
+.marginLeft24px {
+    margin-left: 1.5rem;
+
+}
+
+
+.marginBottom34px {
+    margin-bottom: 2.125rem;
 }
 
 .lineHeight24px {
