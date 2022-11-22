@@ -138,14 +138,12 @@ button {
 }
 
 .boxCircleContainer {
-width: 90%;
-align-items: flex-start;
+    width: 100%;
 }
 
 .checkBoxCircle {
     margin-top: 1rem;
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
 }
 
