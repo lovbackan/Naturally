@@ -92,21 +92,7 @@ button {
     margin-top: 2rem;
 }
 
-.circleSliderContainer {
-    display: flex;
-    width: 4rem;
-    gap: 0.5rem;
-    margin-bottom: 0.5rem;
-    align-items: center;
 
-}
-
-.circleSlider {
-    width: 0.625rem;
-    height: 0.625rem;
-    border-radius: 100%;
-    background-color: #C4AEA8;
-}
 
 /* HEADER-------------------- */
 
