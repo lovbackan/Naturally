@@ -46,9 +46,17 @@ button {
 .marginBottom34px {
     margin-bottom: 2.125rem;
 }
+
+.marginBottom272px {
+    margin-bottom: 17rem;
+}
 .marginLeft24px {
     margin-left: 1.5rem;
 
+}
+
+.marginRight16px {
+    margin-right: 1rem;
 }
 
 .lineHeight24px {
