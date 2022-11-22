@@ -43,14 +43,12 @@ button {
     margin-bottom: 1rem;
 }
 
+.marginBottom34px {
+    margin-bottom: 2.125rem;
+}
 .marginLeft24px {
     margin-left: 1.5rem;
 
-}
-
-
-.marginBottom34px {
-    margin-bottom: 2.125rem;
 }
 
 .lineHeight24px {
@@ -78,10 +76,6 @@ button {
 .buttonColor {
     background-color: #585858;
 }
-.mobileButtonPopup {
-    width: 17.438rem;
-    height: 2.5rem;
-}
 
 .mobileButton {
     width: 14.75rem;
@@ -89,7 +83,31 @@ button {
     border-radius: 0.25rem;
     margin-top: 2rem;
 }
+
+.circleSliderContainer {
+    display: flex;
+    width: 4rem;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    align-items: center;
+
+}
+
+.circleSlider {
+    width: 0.625rem;
+    height: 0.625rem;
+    border-radius: 100%;
+    background-color: #C4AEA8;
+}
+
 /* HEADER-------------------- */
+
+
+.mobileButtonPopup {
+    width: 17.438rem;
+    height: 2.5rem;
+}
+/* POPUP-------------------- */
 
 /* PRODUCT SECTION */
 .productDisplay {
