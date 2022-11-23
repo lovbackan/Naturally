@@ -15,6 +15,7 @@ main {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
 
+
 }
 button {
     background-color: #5E6880;
@@ -108,12 +109,14 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .textContainer {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: red;
 }
 
 .gridContainer {
