@@ -118,7 +118,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: red;
+    width: 20.438rem;
 }
 
 .gridContainer {
@@ -201,6 +201,12 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.textBox {
+    width: 20.438rem;
+
 }
 
 
