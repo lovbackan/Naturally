@@ -14,6 +14,8 @@ main {
     gap: 4rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+    /* margin-left: 15.625%;
+    margin-right: 15.625%; */
 
 
 }
@@ -198,7 +200,7 @@ button {
 
     display: flex;
     flex-direction: column;
-    text-align: left;
+    justify-content: center;
 }
 
 
