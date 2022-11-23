@@ -112,6 +112,12 @@ button {
     align-items: center;
 }
 
+.textContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .gridContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
