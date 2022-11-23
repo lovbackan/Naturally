@@ -7,24 +7,63 @@ body {
 }
 
 main {
-    margin-top: 1rem;
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
-    padding: 0 10px;
+    gap: 4rem;
+    /* margin-left: 1.5rem;
+    margin-right: 1.5rem; */
+    margin-left: 15.625%;
+    margin-right: 15.625%;
+
 }
 button {
     background-color: #5E6880;
     color: white;
     font-family: SplineSans;
     font-size: 14px;
+    border-style: none;
 }
 
 .alignLeft {
     text-align: left;
 }
 
+.marginTop24px {
+    margin-top: 1.5rem;
+}
+
+.marginTop16px {
+    margin-top: 1rem;
+}
+.marginBottom64px {
+    margin-bottom: 4rem;
+}
+
+.marginBottom16px {
+    margin-bottom: 1rem;
+}
+
+.marginBottom34px {
+    margin-bottom: 2.125rem;
+}
+
+.marginBottom272px {
+    margin-bottom: 17rem;
+}
+.marginLeft24px {
+    margin-left: 1.5rem;
+
+}
+
+.marginRight16px {
+    margin-right: 1rem;
+}
+
+.lineHeight24px {
+    line-height: 1.5rem;
+}
 
 
 .colorBlue {
@@ -47,17 +86,24 @@ button {
 .buttonColor {
     background-color: #585858;
 }
-.mobileButtonPopup {
-    width: 17.438rem;
-    height: 2.5rem;
-}
 
 .mobileButton {
     width: 14.75rem;
     height: 2.5rem;
     border-radius: 0.25rem;
+    margin-top: 2rem;
 }
+
+
+
 /* HEADER-------------------- */
+
+
+.mobileButtonPopup {
+    width: 17.438rem;
+    height: 2.5rem;
+}
+/* POPUP-------------------- */
 
 /* PRODUCT SECTION */
 .productDisplay {
@@ -69,7 +115,8 @@ button {
 .gridContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 1rem;
+    margin-top: 1.5rem;
 }
 
 .productPrice {
@@ -88,21 +135,22 @@ button {
     
 }
 
+
+
 .boxCircleContainer {
-width: 90%;
-align-items: flex-start;
+    width:20.438rem;
 }
 
 .checkBoxCircle {
     margin-top: 1rem;
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
 }
 
 .checkBoxCircle h4 {
     margin-left: 1rem;
 }
+
 
 /* COMPANY POLICY */
 
@@ -143,8 +191,8 @@ align-items: flex-start;
 
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    text-align: left;
 }
 
 
@@ -154,13 +202,17 @@ align-items: flex-start;
     height: 20.438rem;
     border: 1px solid black;
     border-radius: 1.25rem;
+    margin-top: 1.5rem;
 }
 .gridPictures{
     width: 9.625rem; 
     height: 9.625rem;
     border: 1px solid black;
     border-radius: 0.585rem;
+
 }
+
+
 
 .policyPicture {
     width: 9.625rem;
