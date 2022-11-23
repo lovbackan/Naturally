@@ -1,8 +1,3 @@
-@font-face {
-    font-family: "Afterglow";
-    src: local("Afterglow"), url(/fonts/Afterglow-Regular.ttf) format("truetype");
-  }
-
   @font-face {
     font-family: "playFair";
     src: local("playFair"), url(/fonts/Playfair_Display/static/PlayfairDisplay-Medium.ttf) format("truetype");
@@ -46,15 +41,6 @@ p {
 }
 
 
-.afterGlow40px {
-    font-family: "Afterglow";
-    font-size: 40px;
-}
-
-.afterGlow20px {
-    font-family: "Afterglow";
-    font-size: 20px;
-}
 
 .playFair40px {
     font-family: "playFair";

@@ -12,8 +12,10 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 4rem;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    /* margin-left: 1.5rem;
+    margin-right: 1.5rem; */
+    margin-left: 15.625%;
+    margin-right: 15.625%;
 
 }
 button {
@@ -133,12 +135,10 @@ button {
     
 }
 
-.packPicture {
-    margin-top: 1.5rem;
-}
+
 
 .boxCircleContainer {
-    width: 100%;
+    width:20.438rem;
 }
 
 .checkBoxCircle {
@@ -202,6 +202,7 @@ button {
     height: 20.438rem;
     border: 1px solid black;
     border-radius: 1.25rem;
+    margin-top: 1.5rem;
 }
 .gridPictures{
     width: 9.625rem; 
