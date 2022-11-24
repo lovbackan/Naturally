@@ -8,18 +8,9 @@ hamburgerBtn.addEventListener("click", () => {
 
 
 
-// const memberBtn = document.querySelector(".mobileButton");
-
-// memberBtn.addEventListener("click", () => {
-//     popUp.classList.toggle("active");
-// });
-
 const popUp = document.querySelector(".popUp");
-
-console.log(popUp);
-
 const memberButtons = document.querySelectorAll("button");
-console.log(memberButtons);
+const main = document.querySelector("main");
     
 
 memberButtons.forEach((button) => {
