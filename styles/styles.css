@@ -16,8 +16,6 @@ main {
     margin-right: 1.5rem;
     /* margin-left: 15.625%;
     margin-right: 15.625%; */
-
-
 }
 button {
     background-color: #5E6880;
@@ -108,6 +106,7 @@ button {
 
 /* PRODUCT SECTION */
 .productDisplay {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -235,3 +234,35 @@ button {
     border-radius: 0.156rem;
 }
 
+/* DESKTOP------------------------------------------> */
+
+@media screen and (min-width: 900px) {
+    .gridContainer {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 4rem;
+    }
+
+    .slider {
+        width: 100%;
+        gap: 4rem;
+        overflow-x: auto;
+        flex-direction: row;
+        align-content: center;
+    }
+
+    .slider .gridPictures {
+        width: 21.563rem;
+        height: 21.563rem;
+        line-height: 21.563rem;
+
+    }
+
+    .gridPictures {
+        margin: 0.5rem;
+    }
+    
+    .productPrice {
+        max-width: 21.563rem;
+        margin-left: 10px;
+    }
+}
