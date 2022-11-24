@@ -281,8 +281,8 @@ button {
 
     .climatePart {
         display: grid;
-        grid-template-columns: repeat(8, 10rem);
-        grid-template-rows: repeat(10, 10rem);
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(10, 1fr);
         align-items: start;
     }
 
