@@ -46,6 +46,10 @@ button {
     margin-bottom: 1rem;
 }
 
+.marginBottom20px {
+    margin-bottom: 1.25rem;
+}
+
 .marginBottom34px {
     margin-bottom: 2.125rem;
 }
@@ -58,8 +62,18 @@ button {
 
 }
 
+.marginLeft16px {
+    margin-left: 1rem;
+
+}
+
 .marginRight16px {
     margin-right: 1rem;
+}
+
+.marginRight24px {
+    margin-right: 1.5rem;
+
 }
 
 .lineHeight24px {
@@ -100,11 +114,6 @@ button {
 /* HEADER-------------------- */
 
 
-.mobileButtonPopup {
-    width: 17.438rem;
-    height: 2.5rem;
-}
-/* POPUP-------------------- */
 
 /* PRODUCT SECTION */
 .productDisplay {

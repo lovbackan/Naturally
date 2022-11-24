@@ -54,6 +54,12 @@ p {
     line-height: 42px;
 }
 
+.playFair24px {
+    font-family: "playFair";
+    font-size: 24px;
+    line-height: 24px;
+
+}
 
 .splineSans20px {
     font-family: "SplineSans";
@@ -64,16 +70,22 @@ p {
     font-size: 16px;
 }
 
+.splineSans14px {
+    font-family: "SplineSans";
+    font-size: 14px;
+}
+.splineSans10px {
+    font-family: "SplineSans";
+    font-size: 10px;
+    line-height: 12px;
+}
+
 .splineSansSemiBold16px {
     font-family: "SplineSansSemiBold";
     font-size: 16px;
 }
 
 
-.splineSans14px {
-    font-family: "SplineSans";
-    font-size: 14px;
-}
 
 .alegreyaSans32px {
     font-family: "AlegreyaSans";
