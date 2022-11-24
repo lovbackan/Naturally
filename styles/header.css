@@ -139,7 +139,8 @@ border-style: outset;
 display: flex;
 flex-direction: column;
 align-self: center;
-position: absolute;
+position: fixed;
+top: 25%;
 }
 
 
