@@ -325,6 +325,7 @@ button {
     /* sektion1 */
 
     .climatePart {
+        margin-left: 10%;
         display: grid;
         grid-template-columns: repeat(8, 1fr);
         grid-template-rows: repeat(4, 1fr);
@@ -375,11 +376,15 @@ button {
         width: 19.549rem;
     }
 
-    .companyPolicy h3, h4, span {
+    .companyPolicy h3 {
         font-size: 42px;
     }
 
     .companyPolicy h4 {
         font-size: 42px;
+    }
+
+    .companyPolicy span {
+        font-size: 60px;
     }
 }
