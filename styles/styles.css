@@ -251,6 +251,24 @@ button {
 /* DESKTOP------------------------------------------> */
 
 @media screen and (min-width: 900px) {
+    /* .heroContainer, h2, button {
+        margin-left: 9.438rem;
+    } */
+
+    .heroContainer h2 {
+        margin-left: 9.438rem;
+        width: 22rem;
+    }
+
+    .heroContainer button {
+        margin-left: 9.438rem;
+    }
+
+
+
+
+
+
     .gridContainer {
         grid-template-columns: repeat(4, 1fr);
         gap: 4rem;
