@@ -187,6 +187,10 @@ button {
     margin-top: 3rem;
 }
 
+.companyPolicy span {
+    font-size: 1.75rem;
+}
+
 
 
 .policyWrapper {
@@ -251,24 +255,21 @@ button {
 /* DESKTOP------------------------------------------> */
 
 @media screen and (min-width: 900px) {
-    /* .heroContainer, h2, button {
-        margin-left: 9.438rem;
-    } */
 
-
+/* hero */
     .heroContainer h2 {
-        margin-left: 9.438rem;
+        margin-left: 10%;
         line-height: 4.375rem;
         font-size: 64px;
         width: 35rem;
     }
 
     .heroContainer h2 span {
-        font-size: 80px;
+        font-size: 87px;
     }
 
     .heroContainer button {
-        margin-left: 9.438rem;
+        margin-left: 10%;
     }
     
     .mobileButton {
@@ -276,8 +277,19 @@ button {
         height: 3.5rem;
     }
 
+/* hero */
 
 
+/* sektion1 */
+
+.productDisplay {
+    align-items:flex-start;
+    
+}
+
+    .textContainer {
+        width: 36rem;
+    }
 
 
 
@@ -309,6 +321,8 @@ button {
         max-width: 21.563rem;
         margin-left: 10px;
     }
+
+    /* sektion1 */
 
     .climatePart {
         display: grid;
