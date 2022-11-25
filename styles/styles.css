@@ -327,7 +327,7 @@ button {
     /* sektion1 */
 
     .climatePart {
-        margin-left: 10%;
+        /* margin-left: 10%; */
         display: grid;
         grid-template-columns: repeat(8, 1fr);
         grid-template-rows: repeat(4, 1fr);
@@ -355,14 +355,17 @@ button {
         grid-column: 1/3;
     }
 
-
+    .companyPolicy {
+        width: 90%;
+    }
 
     .policyContent {
         width: 100%;
         display: flex;
-        flex-direction: row;
+        justify-content: space-between;
         align-items: center;
         background-color: aqua;
+        gap: 2rem;
     }
 
     .policyWrapper {
@@ -374,12 +377,14 @@ button {
     }
 
     .policyPicture {
-        width: 19.549rem;
+        /* width: 19.549rem; */
+        width: 15rem;
         height: 12.397rem;
     }
 
     .policyInfo {
-        width: 19.549rem;
+        /* width: 19.549rem; */
+        width: 15rem;
     }
 
     .companyPolicy h3 {
