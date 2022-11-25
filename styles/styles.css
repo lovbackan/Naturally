@@ -389,6 +389,10 @@ button {
         font-size: 42px;
     }
 
+    .companyPolicy span {
+        font-size: 60px;
+    }
+
     .newProduct {
         background-image: url("/image/leaf.png");
         background-size: cover;
