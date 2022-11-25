@@ -348,4 +348,12 @@ button {
     .policyInfo {
         width: 19.549rem;
     }
+
+    .companyPolicy h3, h4, span {
+        font-size: 42px;
+    }
+
+    .companyPolicy h4 {
+        font-size: 42px;
+    }
 }
