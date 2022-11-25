@@ -17,7 +17,7 @@ const body = document.querySelector("body");
 memberButtons.forEach((button) => {
     button.addEventListener("click", () => {
         popUp.classList.toggle("active");
-        // main.style.filter="blur(8px)";
+        //  main.style.filter="blur(8px)";
         // body.style.filter="blur(8px)";
         // popUp.style.filter="blur(0px)";
         // main.style.opacity="0.5";
