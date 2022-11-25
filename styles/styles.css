@@ -255,13 +255,25 @@ button {
         margin-left: 9.438rem;
     } */
 
+
     .heroContainer h2 {
         margin-left: 9.438rem;
-        width: 22rem;
+        line-height: 4.375rem;
+        font-size: 64px;
+        width: 35rem;
+    }
+
+    .heroContainer h2 span {
+        font-size: 80px;
     }
 
     .heroContainer button {
         margin-left: 9.438rem;
+    }
+    
+    .mobileButton {
+        width: 24.875rem;
+        height: 3.5rem;
     }
 
 
