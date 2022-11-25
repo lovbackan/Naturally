@@ -325,7 +325,6 @@ button {
     /* sektion1 */
 
     .climatePart {
-        margin-left: 10%;
         display: grid;
         grid-template-columns: repeat(8, 1fr);
         grid-template-rows: repeat(4, 1fr);
