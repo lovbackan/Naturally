@@ -69,6 +69,12 @@ p {
 
 }
 
+.splineSans24px {
+    font-family: "SplineSans";
+    font-size: 24px;
+    line-height: 30px;
+}
+
 .splineSans20px {
     font-family: "SplineSans";
     font-size: 20px;

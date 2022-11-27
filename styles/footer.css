@@ -1,5 +1,4 @@
 footer {
-    margin-top: 1rem;
     display: flex;
     flex-direction: column;
 }
@@ -47,6 +46,8 @@ footer {
 
 .footerDesktop p, .footerDesktop a {
     color: #F0E9E5;
+
+
 }
 .contact h4, .company h4, .service h4 {
     margin-bottom: 2rem;
@@ -62,7 +63,7 @@ footer {
 }
 
 .footerIcon {
-    margin-right: 1rem;
+    margin-right: 0.7rem;
 }
 
 
@@ -72,7 +73,7 @@ footer {
 }
 
 .company p, .service p {
-    margin-bottom: 1rem;
+    margin-bottom: 1.8rem;
 }
 
 .service {
