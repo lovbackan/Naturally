@@ -365,7 +365,7 @@ button {
         justify-content: space-between;
         align-items: center;
         background-color: aqua;
-        gap: 2rem;
+        gap: 1rem;
     }
 
     .policyWrapper {
@@ -378,13 +378,13 @@ button {
 
     .policyPicture {
         /* width: 19.549rem; */
-        width: 15rem;
+        width: 16.5rem;
         height: 12.397rem;
     }
 
     .policyInfo {
         /* width: 19.549rem; */
-        width: 15rem;
+        width: 16.5rem;
     }
 
     .companyPolicy h3 {
