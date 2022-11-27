@@ -1,173 +1,197 @@
 header {
-    height: 36.063rem;
-    border-bottom: 3px solid black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    z-index: 0;
-    position: relative;
-
+  height: 36.063rem;
+  border-bottom: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 0;
+  position: relative;
 }
 
 nav {
-    height: 4.25rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+  min-height: 4.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
 }
 
 .nav-icons {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .hamburgerContainer {
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
 }
 .hamburger {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .nav-icons img {
-    margin: 10px;
+  margin: 10px;
 }
 
 .arrowButton {
-    position: absolute;
-    right: 0;
-    top: 17.063rem;
+  position: absolute;
+  right: 0;
+  top: 17.063rem;
 }
 
 .circleSliderContainer {
-    display: flex;
-    gap: 0.5rem;
-    margin-bottom: 0.5rem;
-    justify-content: center;
-    
-
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  justify-content: center;
 }
 
 .circleSlider {
-    width: 0.625rem;
-    height: 0.625rem;
-    border-radius: 100%;
-    background-color: #C4AEA8;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: 100%;
+  background-color: #c4aea8;
 }
 
 /* DROPDOWN-MENY----------------- */
 
 .dropDown {
-    display: none;
+  display: none;
+  background-color: #5e6880;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  position: absolute;
+  top: 68px;
+  height: 31.813rem;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-around;
 }
-.dropDown.active{
-    background-color: #5E6880;
-    margin: 0;
-    padding: 0;
-    z-index: 1;
-    position: absolute;
-    top: 68px;
-    height: 31.813rem;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.dropDown.active {
+display: flex;
 }
 
 .dropDown ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 .dropDown li {
-    list-style: none;
+  list-style: none;
 }
 
 .dropDown li a {
-    text-decoration: none;
-    display: block;
-    color: white;
-    padding: 1rem;
-    font-family: "SplineSans";
-    font-size: 16px;
+  text-decoration: none;
+  display: block;
+  color: white;
+  padding: 1rem;
+  font-family: "SplineSans";
+  font-size: 16px;
 }
 
 .dropDown a {
-    text-decoration: none;
-    color: white;
-    font-family: "SplineSans";
-    font-size: 16px;
-    
+  text-decoration: none;
+  color: white;
+  font-family: "SplineSans";
+  font-size: 16px;
 }
 
-
 .dropDownLogo {
-    width: 16.151rem;
-    margin: 0 auto;
+  width: 16.151rem;
+  margin: 0 auto;
 }
 
 .langContainer {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .langSetting {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 
 .heroContainer span {
-    font-size: 3.75rem;
+  font-size: 3.75rem;
 }
 
 .popUp {
-    display: none;
+  display: none;
+  width: 20.438rem;
+  height: 32.063rem;
+  background-color: #f0e9e5;
+  border-radius: 24px;
+  border: 1px;
+  border-color: #5e6880;
+  border-style: outset;
+  flex-direction: column;
+  align-self: center;
+  position: fixed;
+  top: 25%;
 }
 
 .popUp.active {
-width: 20.438rem;
-height: 32.063rem;
-background-color: #f0e9e5;
-border-radius: 24px;
-border: 1px;
-border-color: #5E6880;
-border-style: outset;
-display: flex;
-flex-direction: column;
-align-self: center;
-position: fixed;
-top: 25%;
+    display: flex;
 }
 
-
-.popUpUpper{
-    height: 11.813rem;
-    background-color: #F9F9F9;
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
-    display: flex;
-    
+.popUpUpper {
+  height: 11.813rem;
+  background-color: #f9f9f9;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  display: flex;
 }
 
 .popUp span {
-    font-size: 2rem;
-
+  font-size: 2rem;
 }
 
 .mobileButtonPopup {
-    width: 14.75rem;
-    height: 2.5rem;
-    border-radius: 4px;
+  width: 14.75rem;
+  height: 2.5rem;
+  border-radius: 4px;
 }
 
 .emailInput {
-    width: 17.438rem;
-    height: 2.5rem;
-    border: 0px;
-    background-color: #ffffff;
+  width: 17.438rem;
+  height: 2.5rem;
+  border: 0px;
+  background-color: #ffffff;
+}
+
+/* DESKTOP---------------------------> */
+@media screen and (min-width: 900px) {
+  .hamburger {
+    display: none;
+  }
+
+  .dropDown {
+    display: flex;
+  }
+
+  .dropDown ul {
+    flex-direction: row;
+  }
+
+  .mobile-logo {
+    display: none;
+  }
+
+  .searchIcon {
+    position: absolute;
+    top: 0;
+    right: 3rem;
+  }
+
+  .dropDownLogo {
+    position: absolute;
+    top: 0;
+  }
+
+
 
 }
