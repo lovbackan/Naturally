@@ -18,7 +18,9 @@
     src: local("AlegreyaSans"), url(/fonts/Alegreya_Sans_SC/AlegreyaSansSC-Light.ttf) format("truetype");
   }
 
-
+p, h2, h3, h4, h5 {
+    color: #2A2F37;
+}
 
 h2 {
     margin: 0;
