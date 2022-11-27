@@ -30,12 +30,21 @@ button {
     text-align: left;
 }
 
+.marginTop32px {
+    margin-top: 2rem;
+}
+
 .marginTop24px {
     margin-top: 1.5rem;
 }
 
 .marginTop16px {
     margin-top: 1rem;
+}
+
+.marginTop8px{
+    margin-top: 0.5rem;
+
 }
 .marginBottom64px {
     margin-bottom: 4rem;
@@ -51,6 +60,10 @@ button {
 
 .marginBottom34px {
     margin-bottom: 2.125rem;
+}
+
+.marginBottom32px {
+    margin-bottom: 2rem;
 }
 
 .marginBottom272px {
@@ -109,7 +122,6 @@ button {
     width: 14.75rem;
     height: 2.5rem;
     border-radius: 0.25rem;
-    margin-top: 2rem;
 }
 
 
@@ -180,7 +192,6 @@ button {
     display:flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
 }
 
 .companyPolicy h4 {
