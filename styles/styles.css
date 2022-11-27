@@ -275,6 +275,10 @@ a {
 @media screen and (min-width: 900px) {
 
 /* hero */
+    .arrowButton {
+        height: 37.8px;
+        width: 18.9px;
+    }
     .heroContainer h2 {
         /* hade 10%förut på margin left  */
         margin-left: 5%;
@@ -295,6 +299,8 @@ a {
         width: 24.875rem;
         height: 3.5rem;
     }
+
+
 
 /* hero */
 
@@ -485,7 +491,6 @@ align-items: center;
     .newProduct h2, .newProduct p {
         color: #F0E9E5;
     }
-
 
 
     

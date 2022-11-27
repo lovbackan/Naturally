@@ -3,22 +3,56 @@ footer {
     height: 27.813rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
 }
+
+
 
 .footerInfoText {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
     margin-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 4.188rem;
 }
 
 .socialMediaIcons {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 4rem;
 }
 
 .footerLogo {
     text-align: center;
     
+}
+
+.footerDesktop {
+    display: none;}
+
+@media screen and (min-width: 900px) {
+
+
+.footerMobile {
+    display: none;
+}
+
+
+.footerDesktop {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.socialMediaIcons {
+    width: 15rem;
+}
+
+/* .footerDesktop p {
+    width: 7rem;
+} */
+
+
+
+
 }
