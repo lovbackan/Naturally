@@ -16,6 +16,13 @@ nav {
   position: relative;
 }
 
+.navMobile {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .nav-icons {
   display: flex;
   align-items: center;
@@ -53,6 +60,10 @@ nav {
   height: 0.625rem;
   border-radius: 100%;
   background-color: #c4aea8;
+}
+
+.navDesk {
+  display: none;
 }
 
 /* DROPDOWN-MENY----------------- */
@@ -165,42 +176,46 @@ display: flex;
 
 /* DESKTOP---------------------------> */
 @media screen and (min-width: 900px) {
-  .hamburger {
-    display: none;
-  }
 
-  .dropDown {
-    display: flex;
-  }
-
-  .dropDown ul {
-    flex-direction: row;
-  }
-
-  .mobile-logo {
-    display: none;
-  }
-
-  .searchIcon {
-    position: absolute;
-    top: 0;
-    right: 3rem;
-  }
-
-  nav {
-    position: relative;
+ .navDesk {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
  }
 
-  .dropDownLogo {
-    position: absolute;
-    right: 0;
-  }
+ .deskNavLinks {
+  display: flex;
+  margin: 0;
+  padding: 0;
+ }
 
-  .navbarLinks {
-    position: absolute;
-    top: 0;
-  }
+ .deskNavLinks ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+ }
 
+ .deskNavLinks li {
+  list-style: none;
+ }
 
+ .deskNavLinks li a {
+  text-decoration: none;
+  display: block;
+  padding: 1rem;
+  color: #fff;
+ }
+
+.navMobile {
+  display: none;
+}
+
+.searchInput input {
+  border-radius: 20px;
+  width: 220px;
+  height: 40px;
+  position: relative;
+}
 
 }
