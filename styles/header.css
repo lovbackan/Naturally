@@ -187,7 +187,16 @@ display: flex;
     right: 3rem;
   }
 
+  nav {
+    position: relative;
+ }
+
   .dropDownLogo {
+    position: absolute;
+    right: 0;
+  }
+
+  .navbarLinks {
     position: absolute;
     top: 0;
   }
