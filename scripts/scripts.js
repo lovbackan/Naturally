@@ -8,15 +8,18 @@ hamburgerBtn.addEventListener("click", () => {
 
 
 
-const popUp = document.querySelector(".popUp");
-const memberButtons = document.querySelectorAll("button");
+const popUpMobile = document.querySelector(".popUpMobile");
+const popUpMobileThanks = document.querySelector(".popUpMobileThanks");
+const mobileButtonPopup = document.querySelector(".mobileButtonPopup");
+const mobileButtonPopupClose = document.querySelector(".mobileButtonPopupClose");
+const memberButtons = document.querySelectorAll(".mobileButton");
 const main = document.querySelector("main");
 const body = document.querySelector("body");
     
 
-memberButtons.forEach((button) => {
-    button.addEventListener("click", () => {
-        popUp.classList.toggle("active");
+memberButtons.forEach((memberButton) => {
+    memberButton.addEventListener("click", () => {
+        popUpMobile.classList.toggle("active");
         //  main.style.filter="blur(8px)";
         // body.style.filter="blur(8px)";
         // popUp.style.filter="blur(0px)";
@@ -28,6 +31,17 @@ memberButtons.forEach((button) => {
     })
     
 });
+
+
+mobileButtonPopup.addEventListener("click", () => {
+        popUpMobileThanks.classList.toggle("active");
+        popUpMobile.classList.toggle("active");
+})
+
+mobileButtonPopupClose.addEventListener("click", () => {
+    popUpMobileThanks.classList.toggle("active");
+})
+
 
 
 
