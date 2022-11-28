@@ -173,7 +173,9 @@ a {
     
 }
 
-
+.arrowContainer, .arrowContainerRight {
+    display: none;
+}
 
 .boxCircleContainer {
     width:20.438rem;
@@ -310,6 +312,14 @@ a {
 .productDisplay {
     align-items:flex-start;  
     position: relative;
+    /* margin-left: 9.688rem; */
+    /* margin-left: 10%; */
+}
+
+.productDisplay h2 {
+    padding-left: 4.8rem;
+    font-size: 40px;
+
 }
 
 .arrowSlider {
@@ -321,6 +331,7 @@ align-items: center;
 }
 
 .arrowContainer {
+    display: block;
     background-color: #fff;
     border-radius: 100%;
     width: 50px;
@@ -329,6 +340,7 @@ align-items: center;
 }
 
 .arrowContainerRight{
+    display: block;
     background-color: #fff;
     border-radius: 100%;
     width: 50px;
@@ -354,7 +366,7 @@ align-items: center;
 }
 
     .textContainer {
-        width: 36rem;
+        width: 42rem;
     }
 
 
@@ -392,33 +404,56 @@ align-items: center;
     /* sektion2 */
 
     .climatePart {
-        /* margin-left: 10%; */
         display: grid;
-        grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
         align-items: start;
+        margin-left: 5rem;
+        margin-right: 5rem;
     }
+
+    .climatePart h2 {
+        font-size: 40px;
+    }
+
+
+
 
     .boxCircleContainer {
         order: 0;
         display: flex;
         flex-direction: column;
         gap: 2.5rem;
-        grid-column: 1/3;
+        grid-column: 1/1;
         grid-row: 2/4;
     }
+
+    .checkBoxCircle img {
+        height: 77.84px;
+        width: 77.84px;
+    }
+    .checkBoxCircle h4 {
+        font-size: 24px;
+
+    }
+
+    .checkBoxCircle {
+        margin-top: 0;
+    }
+    .textBox {
+        grid-column: 1/1;
+    }
+
 
     .packPicture {
         margin-top: 0;
         height: 33.438rem;
         width: 33.438rem;
-        grid-column: 4/8;
+        /* grid-column: 4/8; */
+        grid-column: 3/6;
         grid-row: 1/5;
     }
 
-    .climatePart .textBox {
-        grid-column: 1/3;
-    }
    /* sektion3 */
     .companyPolicy {
         width: 90%;
@@ -479,6 +514,7 @@ align-items: center;
         position: relative;
         display: flex;
         align-items: flex-end;
+        margin-bottom: 4rem;
 
     }
     .newTextBox {
