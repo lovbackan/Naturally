@@ -45,4 +45,15 @@ mobileButtonPopupClose.addEventListener("click", () => {
 
 
 
-   
+//Horizontal scroll buttons
+let leftBtn = document.querySelector(".arrowContainer")
+let rightBtn = document.querySelector(".arrowContainerRight")
+let grid = document.querySelector(".slider")
+
+rightBtn.addEventListener("click", () => {
+    grid.scrollLeft += 100;
+})
+
+leftBtn.addEventListener("click", () => {
+    grid.scrollLeft -= 100;
+})
