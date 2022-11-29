@@ -76,10 +76,12 @@ let leftBtn = document.querySelector(".arrowContainer")
 let rightBtn = document.querySelector(".arrowContainerRight")
 let grid = document.querySelector(".slider")
 
+//scroll right 200px
 rightBtn.addEventListener("click", () => {
     grid.scrollLeft += 260;
 })
 
+//scroll left 200px
 leftBtn.addEventListener("click", () => {
     grid.scrollLeft -= 260;
 })
