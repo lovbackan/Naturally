@@ -259,6 +259,7 @@ a {
     height: 9.625rem;
     border: 1px solid black;
     border-radius: 0.585rem;
+    cursor: pointer;
 
 }
 
