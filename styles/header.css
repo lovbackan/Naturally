@@ -280,7 +280,7 @@ display: flex;
 
  .searchIconsWrapper {
   display: flex;
-  justify-content: space-between;
+  gap: 1rem;
   align-items: center;
  }
 
@@ -384,5 +384,9 @@ display: flex;
   margin-top: 4.7rem;
 }
 
+/* .langIconWrapper {
+  display: flex;
+  align-items: center;
+} */
 
 }
