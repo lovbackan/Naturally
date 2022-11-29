@@ -491,6 +491,7 @@ align-items: center;
     .policyInfo {
         /* width: 19.549rem; */
         width: 16.5rem;
+        align-items: baseline;
     }
 
     .companyPolicy h3 {
