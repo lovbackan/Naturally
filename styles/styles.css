@@ -268,8 +268,6 @@ a {
 .policyPicture {
     width: 9.625rem;
     height: 6.188rem;
-    border: 1px solid black;
-    border-radius: 0.156rem;
 }
 
 /* DESKTOP------------------------------------------> */
@@ -347,7 +345,7 @@ align-items: center;
     height: 50px;
     position: absolute;
     right: 1rem;
-    top: 54.1rem;
+    top: 54.5rem;
     z-index: 99;
 }
 
