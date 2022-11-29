@@ -42,6 +42,10 @@ nav {
   margin: 10px;
 }
 
+.nav-icons:hover {
+  cursor: pointer;
+}
+
 .arrowButton {
   position: absolute;
   right: 0;
@@ -123,7 +127,14 @@ display: flex;
 }
 
 .langSetting {
+  display: flex;
+  gap: 5px;
   margin-right: 1rem;
+}
+
+.langSetting p{
+  color: white;
+  font-size: 18px;
 }
 
 .heroContainer span {
@@ -216,7 +227,7 @@ display: flex;
   width: 100%;
   /* height: 7.5rem; */
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
  }
 
@@ -269,7 +280,7 @@ display: flex;
 
  .searchIconsWrapper {
   display: flex;
-  justify-content: space-between;
+  gap: 1rem;
   align-items: center;
  }
 
@@ -282,21 +293,32 @@ display: flex;
   border-radius: 20px;
   width: 190px;
   height: 40px;
-  position: relative;
   background: transparent url("/icons/vector\ black.svg");
   background-repeat:no-repeat;
-  background-position: left;
+  background-position: 1% 50%;
   background-color: #fff;
   border: none;
-}
-
-.searchInput input::placeholder {
   padding-left: 30px;
 }
 
 .langSetting {
+  color: #fff;
   margin: 0 10px
 }
+
+.langSetting a {
+  text-decoration: none;
+}
+
+.langSetting p{
+  color: white;
+  font-size: 18px;
+}
+
+.langSetting a:hover {
+ color: #555;
+}
+
 
 .popUpMobile {
   display: none;
@@ -362,5 +384,9 @@ display: flex;
   margin-top: 4.7rem;
 }
 
+/* .langIconWrapper {
+  display: flex;
+  align-items: center;
+} */
 
 }
