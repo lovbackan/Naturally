@@ -12,9 +12,12 @@ const popUpMobile = document.querySelector(".popUpMobile");
 const popUpMobileThanks = document.querySelector(".popUpMobileThanks");
 const mobileButtonPopup = document.querySelector(".mobileButtonPopup");
 const mobileButtonPopupClose = document.querySelector(".mobileButtonPopupClose");
+const emailInput = document.querySelector("input").value;
+// const emailValue = document.querySelector(".input").value;
 const memberButtons = document.querySelectorAll(".mobileButton");
 const main = document.querySelector("main");
 const body = document.querySelector("body");
+const form =document.querySelector("form");
     
 
 memberButtons.forEach((memberButton) => {
@@ -33,18 +36,23 @@ memberButtons.forEach((memberButton) => {
     
 });
 
+form.addEventListener("submit", (e) => {
+    e.preventDefault();
+});
 
+// if (emailInput) {
 mobileButtonPopup.addEventListener("click", () => {
         popUpMobileThanks.classList.toggle("active");
         popUpMobile.classList.toggle("active");
         disableScroll();
         
-})
+}) ;
 
 mobileButtonPopupClose.addEventListener("click", () => {
     popUpMobileThanks.classList.toggle("active");
     enableScroll();
 })
+
 
 
 function disableScroll() {

@@ -311,7 +311,7 @@ a {
 
 .productDisplay {
     align-items:flex-start;  
-    position: relative;
+    /* position: relative; */
     /* margin-left: 9.688rem; */
     /* margin-left: 10%; */
 }
@@ -346,8 +346,8 @@ align-items: center;
     width: 50px;
     height: 50px;
     position: absolute;
-    right: 0px;
-    top: 50%;
+    right: 1rem;
+    top: 54.1rem;
     z-index: 99;
 }
 
