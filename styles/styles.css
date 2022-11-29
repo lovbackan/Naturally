@@ -470,7 +470,6 @@ align-items: center;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: aqua;
         gap: 1rem;
     }
 
