@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/footer.css" />
     <link rel="stylesheet" href="styles/header.css" />
     <script src="scripts/scripts.js" defer></script>
+    <script src="scripts/products.js" defer></script>
     <title>Naturally</title>
   </head>
 
@@ -140,7 +141,7 @@
           <div class="gridContainer">
           <div>
             <div class="gridPictures">
-              <img class="bucketHat"src="/image/buckethat.jpg" alt="buckethatpicture">
+              <!-- <img class="bucketHat"src="/image/buckethat.jpg" alt="buckethatpicture"> -->
             </div>
             <div class="productPrice">
               <p class="splineSans16px marginBottom16px marginTop16px">Regnjacka</p>
@@ -250,6 +251,38 @@
           <a href="naturally@naturally.com">naturally@naturally.com</a>
         </p>
       </div>
+      </section>
+
+      <section class="productPopup">
+        <div class="productPopupImage">
+          <div class="headerContainer">
+          <button id="productPopUpCloseButton" class="closeButton">X</button>
+          <div class="colorContainer">
+            <div id="productPopUpColorCircle1" class="colorCircle"></div>
+            <div id="productPopUpColorCircle2" class="colorCircle"></div>
+            <div id="productPopUpColorCircle3" class="colorCircle"></div>
+          </div>
+        </div>
+          <div class="arrowButtonContainer">
+          <img id="productPopUpArrowButtonLeft"class="arrowButtonProductPopUp"src="/icons/arrowButton.svg">
+          <img id="productPopUpArrowButtonRight"class="arrowButtonProductPopUp"src="/icons/arrowButton.svg">
+        </div>
+
+
+        </div>
+        <div class="buttonContainer">
+        <div><p id="productPopupImagePrice"></p></div>
+        <button class="productBuyButton">
+          <p>Buy</p>
+        </button>
+      </div>
+
+        <div class="productImageContainer">
+          <div class="productMiniContainer">
+            <div class="miniProduct"></div>
+            <div class="miniProduct"></div>
+            <div class="miniProduct"></div>
+          </div>
       </section>
 
     </main>
