@@ -270,7 +270,7 @@ a {
 }
 
 
-.policyPicture img, .packPicture img {
+.policyPicture img, .packPicture img, .gridPictures img{
     width: 100%;
     height: 100%;
     border-radius: 5px;
@@ -385,6 +385,7 @@ align-items: center;
         display: flex;
         gap: 4rem;
         overflow-x: scroll;
+        overflow-y: hidden;
         scroll-behavior: smooth;
         flex-direction: row;
         align-content: center;
