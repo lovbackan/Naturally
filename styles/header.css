@@ -261,6 +261,17 @@ display: flex;
   transform-origin: center;
  }
 
+ .logoLinksWrapper {
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .searchIconsWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
 
 .navMobile {
   display: none;
@@ -283,8 +294,7 @@ display: flex;
 }
 
 .langSetting {
-
-  margin-left: 10px;
+  margin: 0 10px
 }
 
 .popUpMobile {
