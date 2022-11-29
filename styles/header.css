@@ -293,15 +293,11 @@ display: flex;
   border-radius: 20px;
   width: 190px;
   height: 40px;
-  position: relative;
   background: transparent url("/icons/vector\ black.svg");
   background-repeat:no-repeat;
-  background-position: left;
+  background-position: 1% 50%;
   background-color: #fff;
   border: none;
-}
-
-.searchInput input::placeholder {
   padding-left: 30px;
 }
 
