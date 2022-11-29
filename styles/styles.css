@@ -380,7 +380,8 @@ align-items: center;
         width: 100%;
         display: flex;
         gap: 4rem;
-        overflow-x: auto;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
         flex-direction: row;
         align-content: center;
     }
