@@ -42,6 +42,10 @@ nav {
   margin: 10px;
 }
 
+.nav-icons:hover {
+  cursor: pointer;
+}
+
 .arrowButton {
   position: absolute;
   right: 0;
@@ -123,7 +127,14 @@ display: flex;
 }
 
 .langSetting {
+  display: flex;
+  gap: 5px;
   margin-right: 1rem;
+}
+
+.langSetting p{
+  color: white;
+  font-size: 18px;
 }
 
 .heroContainer span {
@@ -295,8 +306,23 @@ display: flex;
 }
 
 .langSetting {
+  color: #fff;
   margin: 0 10px
 }
+
+.langSetting a {
+  text-decoration: none;
+}
+
+.langSetting p{
+  color: white;
+  font-size: 18px;
+}
+
+.langSetting a:hover {
+ color: #555;
+}
+
 
 .popUpMobile {
   display: none;
