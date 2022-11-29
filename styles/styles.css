@@ -511,7 +511,6 @@ align-items: center;
         height: auto;
         width: 90%;
         color: #fff;
-        position: relative;
         display: flex;
         align-items: flex-end;
         margin-bottom: 4rem;
