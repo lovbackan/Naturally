@@ -251,8 +251,6 @@ a {
 .packPicture {
     width:20.438rem ;
     height: 20.438rem;
-    border: 1px solid black;
-    border-radius: 1.25rem;
     margin-top: 1.5rem;
 }
 .gridPictures{
@@ -270,9 +268,11 @@ a {
     height: 6.188rem;
 }
 
-.policyPicture img {
+
+img {
     width: 100%;
     height: 100%;
+    border-radius: 5px;
 }
 
 /* DESKTOP------------------------------------------> */
