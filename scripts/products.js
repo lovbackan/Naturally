@@ -156,6 +156,9 @@ const colorCircleElements = document.querySelectorAll(".colorCircle");
 const productImage = document.querySelector(".productPopupImage");
 const leftArrow = document.querySelector("#productPopUpArrowButtonLeft");
 const rightArrow = document.querySelector("#productPopUpArrowButtonRight");
+const popUpSection =document.querySelector(".productPopup");
+const gridPicturesElements = document.querySelectorAll(".gridPictures");
+const closeButton = document.querySelector("#productPopUpCloseButton");
 
 
 function setup() {
@@ -189,17 +192,19 @@ function handleMiniProducts() {
       }
     });
   });
-
   products.forEach((product, productIndex) => {
-    const popUpSection =document.querySelector(".productPopup");
+    // const popUpSection =document.querySelector(".productPopup");
+    
     gridPicturesElements.forEach((gridElement, gridIndex) => {
+      
       if (productIndex === gridIndex) {
         gridElement.style.backgroundImage = `url(${product.colors[0].imageUrls[0]})`;
         gridElement.style.backgroundSize = "contain";
+        console.log("hej");
 
         gridElement.addEventListener("click", () => {
-          // HÄR togglar vi show popup
-          popUpSection.classList.toggle("active");
+          
+
           currentProduct = product;
           setup();
         });
@@ -246,5 +251,23 @@ function changeImage(newValue) {
     });
   }
 }
+
+
+console.log(closeButton);
+
+closeButton.addEventListener("click", () => {
+  popUpSection.classList.toggle("active");
+});
+
+
+gridPicturesElements.forEach(element => {
+  
+  element.addEventListener("click", () => {
+    // HÄR togglar vi show popup
+    popUpSection.classList.toggle("active");
+    
+  });
+});
+
 
 setup();
