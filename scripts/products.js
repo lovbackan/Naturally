@@ -200,7 +200,7 @@ function handleMiniProducts() {
       if (productIndex === gridIndex) {
         gridElement.style.backgroundImage = `url(${product.colors[0].imageUrls[0]})`;
         gridElement.style.backgroundSize = "contain";
-        console.log("hej");
+        console.log("det här är inte bra");
 
         gridElement.addEventListener("click", () => {
           

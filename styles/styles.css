@@ -410,36 +410,6 @@ a {
 
 @media screen and (min-width: 900px) {
 
-/* hero */
-    .arrowButton {
-        height: 37.8px;
-        width: 18.9px;
-    }
-    .heroContainer h2 {
-        /* hade 10%förut på margin left  */
-        margin-left: 5%;
-        line-height: 70.5px;
-        font-size: 64px;
-        width: 35rem;
-    }
-
-    .heroContainer h2 span {
-        font-size: 87px;
-    }
-
-    .heroContainer button {
-        margin-left: 5%;
-    }
-    
-    .mobileButton {
-        width: 24.875rem;
-        height: 3.5rem;
-    }
-
-
-
-/* hero */
-
 
 /* sektion1 */
 
@@ -581,6 +551,11 @@ align-items: center;
         margin-bottom: 0rem;
         top: 90%;
     }
+
+#productPopUpCloseButton {
+    width: 2.5rem;
+    height: 2.5rem;
+}
 #productPopupImagePrice {
     /* width: 16rem; */
     width: 12rem;
