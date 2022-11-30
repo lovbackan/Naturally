@@ -174,11 +174,15 @@ display: flex;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
   display: flex;
+  position: relative;
 }
 
 .closeIcon {
   height: 30px;
   width: 30px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
 .popUpMobile span {

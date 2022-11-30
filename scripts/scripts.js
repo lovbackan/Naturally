@@ -18,6 +18,8 @@ const memberButtons = document.querySelectorAll(".mobileButton");
 const main = document.querySelector("main");
 const body = document.querySelector("body");
 const form =document.querySelector("form");
+const closeIcon = document.querySelector("#firstIcon");
+const secondIcon = document.querySelector("#secondIcon");
     
 
 memberButtons.forEach((memberButton) => {
@@ -44,14 +46,19 @@ memberButtons.forEach((memberButton) => {
 
  mobileButtonPopupClose.addEventListener("click", () => {
     popUpMobile.classList.toggle("active");
-    popUpMobileThanks.classList.toggle("active");
+     popUpMobileThanks.classList.toggle("active");
     enableScroll()
  })
 
-// mobileButtonPopupClose.addEventListener("click", () => {
-//     popUpMobileThanks.classList.toggle("active");
-//     enableScroll();
-// })
+ firstIcon.addEventListener("click", () =>{
+    form.classList.toggle("active")
+ })
+
+ secondIcon.addEventListener("click", () => {
+    popUpMobileThanks.classList.toggle("active");
+    form.classList.toggle("active")
+ })
+
 
 
 
