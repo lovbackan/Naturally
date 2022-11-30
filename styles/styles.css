@@ -264,7 +264,6 @@ a {
 .gridPictures{
     width: 9.625rem; 
     height: 9.625rem;
-    border: 1px solid black;
     border-radius: 0.585rem;
     cursor: pointer;
 

@@ -183,10 +183,25 @@ const colorCircleElements = document.querySelectorAll(".colorCircle");
 const productImage = document.querySelector(".productPopupImage");
 const leftArrow = document.querySelector("#productPopUpArrowButtonLeft");
 const rightArrow = document.querySelector("#productPopUpArrowButtonRight");
-const popUpSection =document.querySelector(".productPopup");
+const popUpSection = document.querySelector(".productPopup");
 const gridPicturesElements = document.querySelectorAll(".gridPictures");
 const closeButton = document.querySelector("#productPopUpCloseButton");
 
+products.forEach((product, productIndex) => {
+  //Ger varje gridelement sin bild
+
+  gridPicturesElements.forEach((gridElement, gridIndex) => {
+    if (productIndex === gridIndex) {
+      gridElement.style.backgroundImage = `url(${product.colors[0].imageUrls[0]})`;
+      gridElement.style.backgroundSize = "contain";
+
+      gridElement.addEventListener("click", () => {
+        currentProduct = product;
+        setup();
+      });
+    }
+  });
+});
 
 function setup() {
   handleColorCircles();
@@ -201,11 +216,10 @@ function setup() {
 
 function handleMiniProducts() {
   const miniProductsElements = document.querySelectorAll(".miniProduct");
-  const gridPicturesElements = document.querySelectorAll(".gridPictures");
   const allProductsExceptChosen = products.filter(
     (product) => product.id !== currentProduct.id
   );
-
+  //Hanterar miniprodukterna
   miniProductsElements.forEach((miniProductElement, elementIndex) => {
     allProductsExceptChosen.forEach((product, productIndex) => {
       if (elementIndex === productIndex) {
@@ -213,25 +227,7 @@ function handleMiniProducts() {
         miniProductElement.style.backgroundSize = "contain";
 
         miniProductElement.addEventListener("click", () => {
-          currentProduct = product;
-          setup();
-        });
-      }
-    });
-  });
-  products.forEach((product, productIndex) => {
-    // const popUpSection =document.querySelector(".productPopup");
-    
-    gridPicturesElements.forEach((gridElement, gridIndex) => {
-      
-      if (productIndex === gridIndex) {
-        gridElement.style.backgroundImage = `url(${product.colors[0].imageUrls[0]})`;
-        gridElement.style.backgroundSize = "contain";
-        console.log("det här är inte bra");
-
-        gridElement.addEventListener("click", () => {
-          
-
+          console.log("det här är inte bra");
           currentProduct = product;
           setup();
         });
@@ -239,6 +235,7 @@ function handleMiniProducts() {
     });
   });
 }
+
 function handleColorCircles() {
   // Sets color circles from chosen product
   // and sets onClick on each circle to change
@@ -279,22 +276,17 @@ function changeImage(newValue) {
   }
 }
 
-
 console.log(closeButton);
 
 closeButton.addEventListener("click", () => {
   popUpSection.classList.toggle("active");
 });
 
-
-gridPicturesElements.forEach(element => {
-  
+gridPicturesElements.forEach((element) => {
   element.addEventListener("click", () => {
     // HÄR togglar vi show popup
     popUpSection.classList.toggle("active");
-    
   });
 });
-
 
 setup();
