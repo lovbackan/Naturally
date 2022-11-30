@@ -32,6 +32,9 @@ button:hover {
 
 a {
     color: inherit;
+    font-family: "SplineSans";
+
+
 }
 
 .alignLeft {
@@ -413,7 +416,6 @@ a {
 /* DESKTOP------------------------------------------> */
 
 @media screen and (min-width: 900px) {
-
 
 /* sektion1 */
 
