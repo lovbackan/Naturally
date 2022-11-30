@@ -2,6 +2,7 @@ const products = [
   {
     id: 0,
     name: "Stövlar",
+    englishName: "Boots",
     price: 350,
     colors: [
       {
@@ -45,6 +46,7 @@ const products = [
   {
     id: 1,
     name: "Paraply",
+    englishName: "Umbrella",
     price: 650,
     colors: [
       {
@@ -88,6 +90,7 @@ const products = [
   {
     id: 2,
     name: "Bucket hat",
+    englishName: "Bucket hat",
     price: 600,
     colors: [
       {
@@ -131,6 +134,7 @@ const products = [
   {
     id: 3,
     name: "Regnjacka",
+    englishName: "Raincoat",
     price: 1337,
     colors: [
       {
@@ -204,9 +208,12 @@ products.forEach((product, productIndex) => {
 });
 
 function setup() {
+  const isEnglish = window.location.pathname === "/english.html";
   handleColorCircles();
   handleMiniProducts();
-  productNameElement.innerHTML = `${currentProduct.name} ${currentProduct.price} SEK`;
+  productNameElement.innerHTML = `${
+    isEnglish ? currentProduct.englishName : currentProduct.name
+  } ${currentProduct.price} SEK`;
   productImage.style.backgroundImage = `url(${currentProduct.colors[0].imageUrls[0]})`;
   productImage.style.backgroundSize = "cover";
   currentChosenColorImageUrls = currentProductColors[0].imageUrls;
