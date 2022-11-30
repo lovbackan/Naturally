@@ -294,7 +294,7 @@ a {
 .productPopup.active {
     position: absolute;
     display: flex;
-    top: 100%;
+    top: 41rem;
 }
 
 .productPopupImage {
@@ -509,6 +509,10 @@ align-items: center;
     .productPrice {
         max-width: 21.563rem;
         margin-left: 10px;
+    }
+    .productPopup.active {
+        top: 38rem;
+        
     }
 
     .productPopup {
