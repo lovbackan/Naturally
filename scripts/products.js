@@ -157,12 +157,13 @@ const productImage = document.querySelector(".productPopupImage");
 const leftArrow = document.querySelector("#productPopUpArrowButtonLeft");
 const rightArrow = document.querySelector("#productPopUpArrowButtonRight");
 
+
 function setup() {
   handleColorCircles();
   handleMiniProducts();
   productNameElement.innerHTML = `${currentProduct.name} ${currentProduct.price} SEK`;
   productImage.style.backgroundImage = `url(${currentProduct.colors[0].imageUrls[0]})`;
-  productImage.style.backgroundSize = "contain";
+  productImage.style.backgroundSize = "cover";
   currentChosenColorImageUrls = currentProductColors[0].imageUrls;
   currentChosenImage = 0;
   currentProductColors = currentProduct.colors.map((color) => color);
@@ -190,6 +191,7 @@ function handleMiniProducts() {
   });
 
   products.forEach((product, productIndex) => {
+    const popUpSection =document.querySelector(".productPopup");
     gridPicturesElements.forEach((gridElement, gridIndex) => {
       if (productIndex === gridIndex) {
         gridElement.style.backgroundImage = `url(${product.colors[0].imageUrls[0]})`;
@@ -197,6 +199,7 @@ function handleMiniProducts() {
 
         gridElement.addEventListener("click", () => {
           // HÄR togglar vi show popup
+          popUpSection.classList.toggle("active");
           currentProduct = product;
           setup();
         });
@@ -204,7 +207,6 @@ function handleMiniProducts() {
     });
   });
 }
-
 function handleColorCircles() {
   // Sets color circles from chosen product
   // and sets onClick on each circle to change

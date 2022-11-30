@@ -278,12 +278,17 @@ a {
 }
 
 .productPopup {
+    display: none;
     width: 20.438rem;
     height: 31.5rem;
-    background-color: aqua;
     border-radius: 0.563rem;
-    display: flex;
     flex-direction: column;
+
+}
+
+.productPopup.active {
+    display: flex;
+    top: 12%;
 }
 
 .productPopupImage {
@@ -296,6 +301,7 @@ a {
     background-image: url(/image/products/boot/side_blue.jpg);
     background-size: contain;
 }
+
 
 .headerContainer{
     display: flex;
@@ -363,6 +369,9 @@ a {
     height: 2.5rem;
     background-color: aliceblue;
     border-radius: 0.563rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -515,6 +524,69 @@ align-items: center;
         max-width: 21.563rem;
         margin-left: 10px;
     }
+
+    .productPopup {
+        width: 40rem;
+        height: 40rem;
+        /* width: 53.25rem;
+        height: 53.25rem; */
+        position: relative;
+
+    }
+
+    .productPopupImage {
+        width: 40rem;
+        height: 40rem;
+        /* width: 53.25rem;
+        height: 53.25rem; */
+    }
+
+    .colorContainer {
+        width: 2.5rem;
+        height: 12rem;
+
+    }
+    .colorCircle {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .arrowButtonContainer {
+        margin-top: 6rem;
+    }
+    #productPopUpArrowButtonLeft, #productPopUpArrowButtonRight {
+        height: 2.363rem;
+        width: 1.181rem;
+    }
+
+
+    .buttonContainer {
+        position: absolute;
+        justify-content: space-between;
+        width: 40rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-bottom: 0rem;
+        top: 90%;
+    }
+#productPopupImagePrice {
+    /* width: 16rem; */
+    width: 12rem;
+}
+
+.productBuyButton {
+    /* width: 19.5rem; */
+    width: 14rem;
+}
+
+    .productImageContainer {
+        display: none;
+    }
+
+
+
+
+
 
     /* sektion2 */
 
