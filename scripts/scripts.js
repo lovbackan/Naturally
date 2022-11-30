@@ -39,9 +39,7 @@ memberButtons.forEach((memberButton) => {
  form.addEventListener("submit", (e) => {
      e.preventDefault();
      popUpMobileThanks.classList.toggle("active");
-    //  mobileButtonPopupClose.classList.toggle("active");
     
-
  });
 
  mobileButtonPopupClose.addEventListener("click", () => {
@@ -49,14 +47,6 @@ memberButtons.forEach((memberButton) => {
     popUpMobileThanks.classList.toggle("active");
     enableScroll()
  })
-
-// if (emailInput) {
-// mobileButtonPopup.addEventListener("click", () => {
-//         popUpMobileThanks.classList.toggle("active");
-//         popUpMobile.classList.toggle("active");
-//         disableScroll();
-        
-// }) ;
 
 // mobileButtonPopupClose.addEventListener("click", () => {
 //     popUpMobileThanks.classList.toggle("active");
