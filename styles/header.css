@@ -176,6 +176,11 @@ display: flex;
   display: flex;
 }
 
+.closeIcon {
+  height: 30px;
+  width: 30px;
+}
+
 .popUpMobile span {
   font-size: 2rem;
 }
