@@ -31,6 +31,15 @@ const products = [
           "image/products/boot/base_yellow.jpg",
         ],
       },
+      {
+        name: "green",
+        value: "#9a987b",
+        imageUrls: [
+          "image/products/boot/side_green.jpg",
+          "image/products/boot/front_green.jpg",
+          "image/products/boot/base_green.jpg",
+        ],
+      },
     ],
   },
   {
