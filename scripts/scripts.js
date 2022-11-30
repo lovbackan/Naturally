@@ -36,22 +36,32 @@ memberButtons.forEach((memberButton) => {
     
 });
 
-form.addEventListener("submit", (e) => {
-    e.preventDefault();
-});
+ form.addEventListener("submit", (e) => {
+     e.preventDefault();
+     popUpMobileThanks.classList.toggle("active");
+    //  mobileButtonPopupClose.classList.toggle("active");
+    
+
+ });
+
+ mobileButtonPopupClose.addEventListener("click", () => {
+    popUpMobile.classList.toggle("active");
+    popUpMobileThanks.classList.toggle("active");
+    enableScroll()
+ })
 
 // if (emailInput) {
-mobileButtonPopup.addEventListener("click", () => {
-        popUpMobileThanks.classList.toggle("active");
-        popUpMobile.classList.toggle("active");
-        disableScroll();
+// mobileButtonPopup.addEventListener("click", () => {
+//         popUpMobileThanks.classList.toggle("active");
+//         popUpMobile.classList.toggle("active");
+//         disableScroll();
         
-}) ;
+// }) ;
 
-mobileButtonPopupClose.addEventListener("click", () => {
-    popUpMobileThanks.classList.toggle("active");
-    enableScroll();
-})
+// mobileButtonPopupClose.addEventListener("click", () => {
+//     popUpMobileThanks.classList.toggle("active");
+//     enableScroll();
+// })
 
 
 
