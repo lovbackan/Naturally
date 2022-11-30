@@ -283,12 +283,14 @@ a {
     height: 31.5rem;
     border-radius: 0.563rem;
     flex-direction: column;
+    background-color: #f0e9e5;
 
 }
 
 .productPopup.active {
+    position: absolute;
     display: flex;
-    top: 12%;
+    top: 100%;
 }
 
 .productPopupImage {
