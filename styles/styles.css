@@ -482,6 +482,7 @@ align-items: center;
     .gridContainer {
         grid-template-columns: repeat(4, 1fr);
         gap: 4rem;
+        margin-top: 5rem;
     }
 
     .slider {

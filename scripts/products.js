@@ -74,6 +74,15 @@ const products = [
           "image/products/boot/base_yellow.jpg",
         ],
       },
+      {
+        name: "green",
+        value: "#9a987b",
+        imageUrls: [
+          "image/products/boot/side_green.jpg",
+          "image/products/boot/front_green.jpg",
+          "image/products/boot/base_green.jpg",
+        ],
+      },
     ],
   },
   {
@@ -108,6 +117,15 @@ const products = [
           "image/products/boot/base_yellow.jpg",
         ],
       },
+      {
+        name: "green",
+        value: "#9a987b",
+        imageUrls: [
+          "image/products/boot/side_green.jpg",
+          "image/products/boot/front_green.jpg",
+          "image/products/boot/base_green.jpg",
+        ],
+      },
     ],
   },
   {
@@ -117,29 +135,38 @@ const products = [
     colors: [
       {
         name: "blue",
-        value: "#8996b1",
+        value: "#5a6b8c",
         imageUrls: [
-          "image/products/raincoat/raincoat.webp",
-          "image/products/boot/front_blue.jpg",
-          "image/products/boot/base_blue.jpg",
+          "image/products/raincoat/blue_front.jpg",
+          "image/products/raincoat/blue_side.jpg",
+          "image/products/raincoat/blue_back.jpg",
         ],
       },
       {
-        name: "brown",
-        value: "#b7907f",
+        name: "purple",
+        value: "#5c546c",
         imageUrls: [
-          "image/products/boot/side_brown.jpg",
-          "image/products/boot/front_brown.jpg",
-          "image/products/boot/base_brown.jpg",
+          "image/products/raincoat/purple_front.jpg",
+          "image/products/raincoat/purple_side.jpg",
+          "image/products/raincoat/purple_back.jpg",
         ],
       },
       {
         name: "yellow",
-        value: "#e4bc4e",
+        value: "#c0ae31",
         imageUrls: [
-          "image/products/boot/side_yellow.jpg",
-          "image/products/boot/front_yellow.jpg",
-          "image/products/boot/base_yellow.jpg",
+          "image/products/raincoat/yellow_front.jpg",
+          "image/products/raincoat/yellow_side.jpg",
+          "image/products/raincoat/yellow_back.jpg",
+        ],
+      },
+      {
+        name: "green",
+        value: "#383d29",
+        imageUrls: [
+          "image/products/raincoat/green_front.jpg",
+          "image/products/raincoat/green_side.jpg",
+          "image/products/raincoat/green_back.jpg",
         ],
       },
     ],
