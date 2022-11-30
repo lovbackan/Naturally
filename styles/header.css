@@ -177,6 +177,11 @@ display: flex;
   position: relative;
 }
 
+#firstIcon,
+#secondIcon:hover {
+  cursor: pointer;
+}
+
 .closeIcon {
   height: 30px;
   width: 30px;

@@ -52,11 +52,13 @@ memberButtons.forEach((memberButton) => {
 
  firstIcon.addEventListener("click", () =>{
     form.classList.toggle("active")
+    enableScroll()
  })
 
  secondIcon.addEventListener("click", () => {
     popUpMobileThanks.classList.toggle("active");
     form.classList.toggle("active")
+    enableScroll()
  })
 
 

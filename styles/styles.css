@@ -26,6 +26,10 @@ button {
     border-style: none;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 a {
     color: inherit;
 }
