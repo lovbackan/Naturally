@@ -406,6 +406,10 @@ a {
     cursor: pointer;
 }
 
+.newTextBox {
+    width: 20rem;
+}
+
 /* DESKTOP------------------------------------------> */
 
 @media screen and (min-width: 900px) {
