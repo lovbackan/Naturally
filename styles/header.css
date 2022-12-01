@@ -172,24 +172,34 @@ nav {
   overflow-x: scroll;
 }
 
-.heroContainer.bootGif.umbrellaGif {
+/* .heroContainer.bootGif.umbrellaGif {
   width: 100%;
   height: 100%;
   line-height: 100%;
+} */
+
+/* .umbrellaContainer {
+width: 100%;
+} */
+
+picture img {
+  height: 100%;
+  width: 100vw;
 }
 
-.umbrellaContainer {
-width: 100%;
-}
-.bootGif {
+picture {
   height: auto;
+  width: 100vw;
+}
+
+
+.bootGif {
   width: 100vw;
   position: relative;
   z-index: -1;
 }
 
 .umbrellaGif {
-  height: auto;
   width: 100vw;
   position: relative;
   z-index: -1;
