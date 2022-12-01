@@ -182,15 +182,15 @@ nav {
 width: 100%;
 }
 .bootGif {
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: 100vw;
   position: relative;
   z-index: -1;
 }
 
 .umbrellaGif {
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: 100vw;
   position: relative;
   z-index: -1;
 }
