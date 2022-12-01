@@ -198,8 +198,15 @@ nav {
 
 .popUpMobile.active {
     display: flex;
-}
-
+  }
+  
+  /* .popUpUpper {
+    height: 11.813rem;
+    background-color: #f9f9f9;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    display: flex;
+  } */
 .popUpUpper {
   height: 11.813rem;
   background-color: #f9f9f9;
@@ -207,6 +214,8 @@ nav {
   border-top-right-radius: 24px;
   display: flex;
   position: relative;
+  background-image: url(/image/popUpPicture.jpg);
+  background-size: contain;
 }
 
 #firstIcon,
@@ -257,13 +266,6 @@ nav {
     display: flex;
 }
 
-.popUpUpper {
-  height: 11.813rem;
-  background-color: #f9f9f9;
-  border-top-left-radius: 24px;
-  border-top-right-radius: 24px;
-  display: flex;
-}
 
 .popUpMobileThanks span {
   font-size: 2rem;
@@ -441,6 +443,8 @@ nav {
   border-bottom-left-radius: 24px;
   border-top-right-radius: 0px;
   display: flex;
+  background-image: url(/image/popUpPictureDesktop.jpg);
+  background-size: contain;
 }
 
 .emailInput {
