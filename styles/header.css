@@ -1,5 +1,5 @@
 header {
-  height: 36.063rem;
+  height: 40.2rem;
   border-bottom: 3px solid black;
   display: flex;
   flex-direction: column;
@@ -86,7 +86,7 @@ nav {
   z-index: 1;
   position: absolute;
   top: 68px;
-  height: 31.813rem;
+  height: 36.313rem;
   width: 100%;
   flex-direction: column;
   justify-content: space-around;
@@ -155,21 +155,38 @@ nav {
 }
 
 .heroInfoContainer {
-  padding-top: 18rem;
+  width: 21.188rem;
+  height: 10.688rem;
+  margin-top: 23.625rem;
   max-width: 24rem;
-  text-align: center;
   position: absolute;
-  left: 10px;
+  background-color: #2A2F37;
+  background-blend-mode: hard-light;
+  border-radius: 20px;
+  opacity: 80%;
+  margin-left: 1rem;
+}
+
+.heroInfoContainer h2 {
+  color: #F0E9E5;
+  padding-left: 0.7rem;
+}
+
+.heroInfoContainer button {
+  margin-left: 3rem;
+  margin-top: 1rem;
+
 }
 
 .heroContainer {
-  margin-top: 4.2rem;
+  margin-top: 4rem;
   position: relative;
-  height: 100%;
+  height: 36.075rem;
   width: 200%;
   display: flex;
   overflow-y: hidden;
   overflow-x: scroll;
+  
 }
 
 /* .heroContainer.bootGif.umbrellaGif {
@@ -298,6 +315,10 @@ picture {
 /* DESKTOP---------------------------> */
 @media screen and (min-width: 900px) {
 
+  header {
+    height: 45rem;
+  }
+
  .navDesk {
   width: 100%;
   display: flex;
@@ -400,12 +421,15 @@ picture {
 }
 
 .heroContainer {
-  height: 31.7rem;
+  height: 42.5rem;
+
 }
 
 .heroInfoContainer {
-  padding-top: 14rem;
-  width: 23rem;
+  width: 36.375rem;
+  height: 17.813rem;
+  margin-top: 21.688rem;
+  
 }
 .arrowButton {
   height: 37.8px;
@@ -415,7 +439,7 @@ picture {
   /* hade 10%förut på margin left  */
   line-height: 70.5px;
   font-size: 64px;
-  width: 35rem;
+  /* width: 32rem; */
 }
 
 .heroContainer h2 span {
