@@ -106,20 +106,26 @@ let leftBtn = document.querySelector(".arrowContainer")
 let rightBtn = document.querySelector(".arrowContainerRight")
 let grid = document.querySelector(".slider")
 
-//scroll right 200px
+//scroll right 260px
 rightBtn.addEventListener("click", () => {
     grid.scrollLeft += 260;
 })
 
-//scroll left 200px
+//scroll left 260px
 leftBtn.addEventListener("click", () => {
     grid.scrollLeft -= 260;
 })
 
+//Change color on langSettings buttons depending on wedish/english site
+let sweSiteBtn = document.querySelector(".sweBtn")
+let engSiteBtn = document.querySelector(".engBtn")
 
-const seSite = document.getElementById("swedish")
-const engSite = document.getElementById("english")
+//get the current url
+engSite = window.location.href
 
-if (window.location.href == "https://naturallly.netlify.app/english.html") {
-    engSite.style.color = "#555"
+//if the current url equals the english url change the color on the button
+if (engSite == "http://127.0.0.1:5500/english.html") {
+    engSiteBtn.style.color = "#555"
+} else {
+  sweSiteBtn.style.color = "#555"
 }
