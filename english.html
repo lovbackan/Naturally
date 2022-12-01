@@ -115,17 +115,27 @@
 
 <div class="heroContainer">
   <!-- <div class="umbrellaContainer"> -->
-    <img src="image/umbrelladesktopsmall.webp"
-    srcset="image/umbrellamobile.gif 400w, image/umbrelladesktopsmall.webp 900w"
-    class="umbrellaGif" alt="umbrella that folds closed animation">
+    <picture>
+    <!-- <source media="(min-width: 500px)" srcset="image/umbrellamobile.gif"> -->
+    <source media="(min-width: 900px)" srcset="image/umbrelladesktopsmall.webp">
+      <img 
+      src="image/umbrellamobile.gif"
+      class="umbrellaGif" alt="umbrella that folds closed animation"/>
+    </picture>
+    
   <!-- </div> -->
   <!-- <div class="bootContainer"> -->
-    <img src="image/hero_skor_web.webp" class="bootGif" alt="Boot infront of a waterfall animation">
+    <picture>
+      <source media="(min-width: 900px)" srcset="image/hero_skor_green-min.gif">
+
+      <img src="image/hero_skor_mobil-min.gif" 
+      class="bootGif" alt="Boot infront of a waterfall animation">
+    </picture>
   <!-- </div> -->
   <!-- <img class="arrowButton marginRight16px" src="./icons/arrowButton.svg" alt="arrowButton"> -->
   <div class="heroInfoContainer">
-  <h2 class="playFair40px marginLeft24px"> <span>20</span>% rabatt på vår nya kollektion!</h2>
-  <button class="mobileButton marginLeft24px marginBottom16px marginTop32px">Bli medlem!</button>
+  <h2 class="playFair38px"> <span>20</span>% rabatt på vår nya kollektion!</h2>
+  <button class="mobileButton marginLeft24px marginBottom16px">Bli medlem!</button>
 </div>
 </div>
     </header>
