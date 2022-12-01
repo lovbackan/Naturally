@@ -115,3 +115,11 @@ rightBtn.addEventListener("click", () => {
 leftBtn.addEventListener("click", () => {
     grid.scrollLeft -= 260;
 })
+
+
+const seSite = document.getElementById("swedish")
+const engSite = document.getElementById("english")
+
+if (window.location == "https://naturallly.netlify.app/english.html") {
+    engSite.style.color = "#555"
+}
