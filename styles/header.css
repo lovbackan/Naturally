@@ -149,7 +149,7 @@ nav {
 
 .heroInfoContainer {
   padding-top: 18rem;
-  width: 23rem;
+  width: 24rem;
 }
 
 .heroContainer {
@@ -261,10 +261,6 @@ nav {
 /* DESKTOP---------------------------> */
 @media screen and (min-width: 900px) {
 
-  header {
-    height: 37.5rem;
-  }
-
  .navDesk {
   width: 100%;
   display: flex;
@@ -362,7 +358,12 @@ nav {
 }
 
 .heroContainer {
-  height: 37.5rem;
+  height: 31.7rem;
+}
+
+.heroInfoContainer {
+  padding-top: 14rem;
+  width: 23rem;
 }
 .arrowButton {
   height: 37.8px;
