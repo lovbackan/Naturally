@@ -7,6 +7,7 @@ header {
   z-index: 0;
   position: relative;
   z-index: 10;
+  overflow-x: scroll;
 }
 
 nav {
@@ -157,26 +158,33 @@ nav {
   padding-top: 18rem;
   max-width: 24rem;
   text-align: center;
+  position: absolute;
+  left: 10px;
 }
 
 .heroContainer {
-  /* background-image: url("/image/hero_skor_gif\ 1.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; */
+  margin-top: 4.2rem;
   position: relative;
-  height: 36.063rem;
-  width: 100%;
+  height: 100%;
+  width: 200%;
   display: flex;
-  overflow-x: auto;
-  flex-direction: column;
+  overflow-y: hidden;
+  overflow-x: scroll;
 }
 
+.heroContainer.bootGif.umbrellaGif {
+  width: 100%;
+  height: 100%;
+  line-height: 100%;
+}
+
+.umbrellaContainer {
+width: 100%;
+}
 .bootGif {
   height: 100%;
   width: 100%;
   position: relative;
-  position: absolute;
   z-index: -1;
 }
 
@@ -184,7 +192,7 @@ nav {
   height: 100%;
   width: 100%;
   position: relative;
-  position: absolute;
+  z-index: -1;
 }
 
 
