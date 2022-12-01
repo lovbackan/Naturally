@@ -191,21 +191,7 @@ const popUpSection = document.querySelector(".productPopup");
 const gridPicturesElements = document.querySelectorAll(".gridPictures");
 const closeButton = document.querySelector("#productPopUpCloseButton");
 
-products.forEach((product, productIndex) => {
-  //Ger varje gridelement sin bild
 
-  gridPicturesElements.forEach((gridElement, gridIndex) => {
-    if (productIndex === gridIndex) {
-      gridElement.style.backgroundImage = `url(${product.colors[0].imageUrls[0]})`;
-      gridElement.style.backgroundSize = "contain";
-
-      gridElement.addEventListener("click", () => {
-        currentProduct = product;
-        setup();
-      });
-    }
-  });
-});
 
 function setup() {
   const isEnglish = window.location.pathname === "/english.html";
@@ -242,6 +228,22 @@ function handleMiniProducts() {
     });
   });
 }
+
+products.forEach((product, productIndex) => {
+  //Ger varje gridelement sin bild
+
+  gridPicturesElements.forEach((gridElement, gridIndex) => {
+    if (productIndex === gridIndex) {
+      gridElement.style.backgroundImage = `url(${product.colors[0].imageUrls[0]})`;
+      gridElement.style.backgroundSize = "contain";
+      
+      gridElement.addEventListener("click", () => {
+        currentProduct = product;
+        setup();
+      });
+    }
+  });
+});
 
 function handleColorCircles() {
   // Sets color circles from chosen product
