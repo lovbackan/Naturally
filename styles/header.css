@@ -416,10 +416,14 @@ width: 100%;
 }
 
 .heroInfoContainer {
-  width: 36.375rem;
   height: 17.813rem;
   margin-top: 21.688rem;
-  
+  width: 0%;
+}
+
+.heroInfoContainer button {
+  margin-left: 0rem;
+
 }
 .arrowButton {
   height: 37.8px;
@@ -429,6 +433,7 @@ width: 100%;
   /* hade 10%förut på margin left  */
   line-height: 70.5px;
   font-size: 64px;
+  width: 40rem;
   /* width: 32rem; */
 }
 
