@@ -226,6 +226,7 @@ function handleMiniProducts() {
         });
       }
     });
+    
   });
 }
 
@@ -239,7 +240,9 @@ products.forEach((product, productIndex) => {
       
       gridElement.addEventListener("click", () => {
         currentProduct = product;
+
         setup();
+        
       });
     }
   });
@@ -285,17 +288,20 @@ function changeImage(newValue) {
   }
 }
 
-console.log(closeButton);
+// BUGG MED DETTA, När man trycker på något annat en skon första clicket så buggar det då det inte registrerar vilken produkt som trycktes på (kanske borde vara en foreach i en foreach);(Gå tillbaka till förgående version)
 
 closeButton.addEventListener("click", () => {
+  // currentProduct = products[0];
   popUpSection.classList.toggle("active");
 });
 
-gridPicturesElements.forEach((element) => {
-  element.addEventListener("click", () => {
-    // HÄR togglar vi show popup
+gridPicturesElements.forEach(gridElement => {
+  gridElement.addEventListener("click", () => {
+    console.log("click");
     popUpSection.classList.toggle("active");
+    
   });
+  
 });
 
 setup();
