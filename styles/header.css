@@ -84,9 +84,16 @@ nav {
   width: 100%;
   flex-direction: column;
   justify-content: space-around;
+  transition: height .5s ease;
 }
+
 .dropDown.active {
-display: flex;
+  display: flex;
+  /* height: 31.813rem; */
+}
+.dropDown.visiblyHidden {
+  opacity: 0;
+  height: 100%;
 }
 
 .dropDown ul {

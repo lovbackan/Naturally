@@ -4,7 +4,25 @@ const dropDownMenu = document.querySelector(".dropDown");
 
 hamburgerBtn.addEventListener("click", () => {
     dropDownMenu.classList.toggle("active")
-});
+
+
+if (dropDownMenu.classList.contains('hidden')) {
+    dropDownMenu.classList.remove('hidden');
+    setTimeout(function () {
+      dropDownMenu.classList.remove('visiblyHidden');
+    }, 20);
+  } else {
+    dropDownMenu.classList.add('visiblyHidden');    
+    dropDownMenu.addEventListener('transitionend', function(e) {
+      dropDownMenu.classList.add('hidden');
+    }, {
+      capture: false,
+      once: true,
+      passive: false
+    });
+  }
+  
+}, false);
 
 
 
