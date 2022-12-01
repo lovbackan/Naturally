@@ -38,6 +38,9 @@ const body = document.querySelector("body");
 const form =document.querySelector("form");
 const closeIcon = document.querySelector("#firstIcon");
 const secondIcon = document.querySelector("#secondIcon");
+// const englishButton = document.querySelector("#english");
+// const swedishButton = document.querySelector("#swedish");
+// console.log(englishButton);
     
 
 memberButtons.forEach((memberButton) => {

@@ -2,6 +2,7 @@ const products = [
   {
     id: 0,
     name: "Stövlar",
+    englishName: "Boots",
     price: 350,
     colors: [
       {
@@ -45,6 +46,7 @@ const products = [
   {
     id: 1,
     name: "Paraply",
+    englishName: "Umbrella",
     price: 650,
     colors: [
       {
@@ -74,11 +76,21 @@ const products = [
           "image/products/boot/base_yellow.jpg",
         ],
       },
+      {
+        name: "green",
+        value: "#9a987b",
+        imageUrls: [
+          "image/products/boot/side_green.jpg",
+          "image/products/boot/front_green.jpg",
+          "image/products/boot/base_green.jpg",
+        ],
+      },
     ],
   },
   {
     id: 2,
     name: "Bucket hat",
+    englishName: "Bucket hat",
     price: 600,
     colors: [
       {
@@ -108,38 +120,57 @@ const products = [
           "image/products/boot/base_yellow.jpg",
         ],
       },
+      {
+        name: "green",
+        value: "#9a987b",
+        imageUrls: [
+          "image/products/boot/side_green.jpg",
+          "image/products/boot/front_green.jpg",
+          "image/products/boot/base_green.jpg",
+        ],
+      },
     ],
   },
   {
     id: 3,
     name: "Regnjacka",
+    englishName: "Raincoat",
     price: 1337,
     colors: [
       {
         name: "blue",
-        value: "#8996b1",
+        value: "#5a6b8c",
         imageUrls: [
-          "image/products/raincoat/raincoat.webp",
-          "image/products/boot/front_blue.jpg",
-          "image/products/boot/base_blue.jpg",
+          "image/products/raincoat/blue_front.jpg",
+          "image/products/raincoat/blue_side.jpg",
+          "image/products/raincoat/blue_back.jpg",
         ],
       },
       {
-        name: "brown",
-        value: "#b7907f",
+        name: "purple",
+        value: "#5c546c",
         imageUrls: [
-          "image/products/boot/side_brown.jpg",
-          "image/products/boot/front_brown.jpg",
-          "image/products/boot/base_brown.jpg",
+          "image/products/raincoat/purple_front.jpg",
+          "image/products/raincoat/purple_side.jpg",
+          "image/products/raincoat/purple_back.jpg",
         ],
       },
       {
         name: "yellow",
-        value: "#e4bc4e",
+        value: "#c0ae31",
         imageUrls: [
-          "image/products/boot/side_yellow.jpg",
-          "image/products/boot/front_yellow.jpg",
-          "image/products/boot/base_yellow.jpg",
+          "image/products/raincoat/yellow_front.jpg",
+          "image/products/raincoat/yellow_side.jpg",
+          "image/products/raincoat/yellow_back.jpg",
+        ],
+      },
+      {
+        name: "green",
+        value: "#383d29",
+        imageUrls: [
+          "image/products/raincoat/green_front.jpg",
+          "image/products/raincoat/green_side.jpg",
+          "image/products/raincoat/green_back.jpg",
         ],
       },
     ],
@@ -156,12 +187,33 @@ const colorCircleElements = document.querySelectorAll(".colorCircle");
 const productImage = document.querySelector(".productPopupImage");
 const leftArrow = document.querySelector("#productPopUpArrowButtonLeft");
 const rightArrow = document.querySelector("#productPopUpArrowButtonRight");
+const popUpSection = document.querySelector(".productPopup");
+const gridPicturesElements = document.querySelectorAll(".gridPictures");
+const closeButton = document.querySelector("#productPopUpCloseButton");
 
+products.forEach((product, productIndex) => {
+  //Ger varje gridelement sin bild
+
+  gridPicturesElements.forEach((gridElement, gridIndex) => {
+    if (productIndex === gridIndex) {
+      gridElement.style.backgroundImage = `url(${product.colors[0].imageUrls[0]})`;
+      gridElement.style.backgroundSize = "contain";
+
+      gridElement.addEventListener("click", () => {
+        currentProduct = product;
+        setup();
+      });
+    }
+  });
+});
 
 function setup() {
+  const isEnglish = window.location.pathname === "/english.html";
   handleColorCircles();
   handleMiniProducts();
-  productNameElement.innerHTML = `${currentProduct.name} ${currentProduct.price} SEK`;
+  productNameElement.innerHTML = `${
+    isEnglish ? currentProduct.englishName : currentProduct.name
+  } ${currentProduct.price} SEK`;
   productImage.style.backgroundImage = `url(${currentProduct.colors[0].imageUrls[0]})`;
   productImage.style.backgroundSize = "cover";
   currentChosenColorImageUrls = currentProductColors[0].imageUrls;
@@ -171,11 +223,10 @@ function setup() {
 
 function handleMiniProducts() {
   const miniProductsElements = document.querySelectorAll(".miniProduct");
-  const gridPicturesElements = document.querySelectorAll(".gridPictures");
   const allProductsExceptChosen = products.filter(
     (product) => product.id !== currentProduct.id
   );
-
+  //Hanterar miniprodukterna
   miniProductsElements.forEach((miniProductElement, elementIndex) => {
     allProductsExceptChosen.forEach((product, productIndex) => {
       if (elementIndex === productIndex) {
@@ -183,23 +234,7 @@ function handleMiniProducts() {
         miniProductElement.style.backgroundSize = "contain";
 
         miniProductElement.addEventListener("click", () => {
-          currentProduct = product;
-          setup();
-        });
-      }
-    });
-  });
-
-  products.forEach((product, productIndex) => {
-    const popUpSection =document.querySelector(".productPopup");
-    gridPicturesElements.forEach((gridElement, gridIndex) => {
-      if (productIndex === gridIndex) {
-        gridElement.style.backgroundImage = `url(${product.colors[0].imageUrls[0]})`;
-        gridElement.style.backgroundSize = "contain";
-
-        gridElement.addEventListener("click", () => {
-          // HÄR togglar vi show popup
-          popUpSection.classList.toggle("active");
+          console.log("det här är inte bra");
           currentProduct = product;
           setup();
         });
@@ -207,6 +242,7 @@ function handleMiniProducts() {
     });
   });
 }
+
 function handleColorCircles() {
   // Sets color circles from chosen product
   // and sets onClick on each circle to change
@@ -246,5 +282,18 @@ function changeImage(newValue) {
     });
   }
 }
+
+console.log(closeButton);
+
+closeButton.addEventListener("click", () => {
+  popUpSection.classList.toggle("active");
+});
+
+gridPicturesElements.forEach((element) => {
+  element.addEventListener("click", () => {
+    // HÄR togglar vi show popup
+    popUpSection.classList.toggle("active");
+  });
+});
 
 setup();

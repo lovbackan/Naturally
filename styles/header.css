@@ -55,7 +55,6 @@ nav {
 .circleSliderContainer {
   display: flex;
   gap: 0.5rem;
-  margin-bottom: 0.5rem;
   justify-content: center;
 }
 
@@ -148,15 +147,23 @@ nav {
   font-size: 3.75rem;
 }
 
+.heroInfoContainer {
+  padding-top: 18rem;
+  width: 23rem;
+}
+
 .heroContainer {
   background-image: url("/image/hero_skor_gif\ 1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  height: 100%;
+  /* height: 100%; */
+  height: 36.063rem;
   width: 100%;
 }
+
+
 
 .popUpMobile {
   display: none;
@@ -254,9 +261,12 @@ nav {
 /* DESKTOP---------------------------> */
 @media screen and (min-width: 900px) {
 
+  header {
+    height: 37.5rem;
+  }
+
  .navDesk {
   width: 100%;
-  height: 7.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -307,6 +317,7 @@ nav {
  .logoLinksWrapper {
   display: flex;
   gap: 10px;
+  align-items: center;
  }
 
  .searchIconsWrapper {
@@ -322,7 +333,7 @@ nav {
 
 .searchInput input {
   border-radius: 20px;
-  width: 190px;
+  width: 10.875;
   height: 40px;
   background: transparent url("/icons/vector\ black.svg");
   background-repeat:no-repeat;
@@ -350,6 +361,28 @@ nav {
  color: #555;
 }
 
+.heroContainer {
+  height: 37.5rem;
+}
+.arrowButton {
+  height: 37.8px;
+  width: 18.9px;
+}
+.heroContainer h2 {
+  /* hade 10%förut på margin left  */
+  line-height: 70.5px;
+  font-size: 64px;
+  width: 35rem;
+}
+
+.heroContainer h2 span {
+  font-size: 87px;
+}
+
+.mobileButton {
+  width: 24.875rem;
+  height: 3.5rem;
+}
 
 .popUpMobile {
   display: none;
