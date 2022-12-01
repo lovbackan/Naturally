@@ -124,7 +124,7 @@ let engSiteBtn = document.querySelector(".engBtn")
 engSite = window.location.href
 
 //if the current url equals the english url change the color on the button
-if (engSite == "http://127.0.0.1:5500/english.html") {
+if (engSite == "https://naturallly.netlify.app/index.html") {
     engSiteBtn.style.color = "#555"
 } else {
   sweSiteBtn.style.color = "#555"
