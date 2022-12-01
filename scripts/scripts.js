@@ -5,24 +5,27 @@ const dropDownMenu = document.querySelector(".dropDown");
 hamburgerBtn.addEventListener("click", () => {
     dropDownMenu.classList.toggle("active")
 
+    console.log("hej")
 
-if (dropDownMenu.classList.contains('hidden')) {
-    dropDownMenu.classList.remove('hidden');
-    setTimeout(function () {
-      dropDownMenu.classList.remove('visiblyHidden');
-    }, 20);
-  } else {
-    dropDownMenu.classList.add('visiblyHidden');    
-    dropDownMenu.addEventListener('transitionend', function(e) {
-      dropDownMenu.classList.add('hidden');
-    }, {
-      capture: false,
-      once: true,
-      passive: false
-    });
-  }
+
+ if (dropDownMenu.classList.contains('hidden')) {
+     dropDownMenu.classList.remove('hidden');
+     setTimeout(function () {
+       dropDownMenu.classList.remove('visiblyHidden');
+     }, 20);
+   } else {
+     dropDownMenu.classList.add('visiblyHidden');    
+     dropDownMenu.addEventListener('transitionend', function(e) {
+       dropDownMenu.classList.add('hidden');
+     }, {
+       capture: false,
+       once: true,
+       passive: false
+     });
+   }
   
-}, false);
+});
+
 
 
 
@@ -117,15 +120,29 @@ leftBtn.addEventListener("click", () => {
 })
 
 //Change color on langSettings buttons depending on wedish/english site
-let sweSiteBtn = document.querySelector(".sweBtn")
-let engSiteBtn = document.querySelector(".engBtn")
+// let sweSiteBtn = document.querySelectorAll(".sweBtn")
+// let engSiteBtn = document.querySelectorAll(".engBtn")
 
-//get the current url
-engSite = window.location.href
+// //get the current url
+// engSite = window.location.href
+
+// console.log(engSite);
+
+// engSiteBtn.forEach(langBtn => {
+//   if (engSite == "http://127.0.0.1:5500/english.html" || "http://127.0.0.1:5500/english.html#") {
+//     langBtn.style.color = "#555"
+//   }
+// })
+
+// sweSiteBtn.forEach(sweLangBtn => {
+//   if (engSite !== "http://127.0.0.1:5500/english.html" ) {
+//     sweLangBtn.style.color = "#555"
+//   }
+// })
 
 //if the current url equals the english url change the color on the button
-if (engSite == "https://naturallly.netlify.app/english.html" || engSite == "https://naturallly.netlify.app/english.html#") {
-    engSiteBtn.style.color = "#555"
-} else {
-  sweSiteBtn.style.color = "#555"
-}
+//  if (engSite == "http://127.0.0.1:5500/english.html") {
+//     engSiteBtn.style.color = "#555"
+// } else {
+//   sweSiteBtn.style.color = "#555"
+// }
