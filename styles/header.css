@@ -374,6 +374,11 @@ nav {
 .langSetting a:hover {
  color: #555;
 }
+.deskLogo img {
+  width: 240px;
+  height: 47px;
+  margin-top: 0.2rem;
+}
 
 .heroContainer {
   height: 31.7rem;
