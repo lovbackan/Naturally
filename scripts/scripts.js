@@ -120,6 +120,6 @@ leftBtn.addEventListener("click", () => {
 const seSite = document.getElementById("swedish")
 const engSite = document.getElementById("english")
 
-if (window.location == "https://naturallly.netlify.app/english.html") {
+if (window.location.href == "https://naturallly.netlify.app/english.html") {
     engSite.style.color = "#555"
 }
