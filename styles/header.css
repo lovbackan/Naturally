@@ -6,6 +6,7 @@ header {
   justify-content: space-between;
   z-index: 0;
   position: relative;
+  z-index: 10;
 }
 
 nav {
@@ -13,7 +14,12 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 10;
+  transition: 0.5s;
+  
 }
 
 .navMobile {
@@ -149,9 +155,8 @@ nav {
 
 .heroInfoContainer {
   padding-top: 18rem;
-  width: 23rem;
-  position: absolute;
-  left: 10px;
+  max-width: 24rem;
+  text-align: center;
 }
 
 .heroContainer {
@@ -160,7 +165,7 @@ nav {
   width: 100%;
   display: flex;
   overflow-x: auto;
-  overflow-y: hidden;
+  flex-direction: column;
 }
 
 .heroContainer.bootGif.umbrellaGif {
@@ -203,7 +208,7 @@ width: 100%;
 
 .popUpMobile.active {
     display: flex;
-}
+  }
 
 .popUpUpper {
   height: 11.813rem;
@@ -212,6 +217,8 @@ width: 100%;
   border-top-right-radius: 24px;
   display: flex;
   position: relative;
+  background-image: url(/image/popUpPicture.jpg);
+  background-size: contain;
 }
 
 #firstIcon,
@@ -262,13 +269,6 @@ width: 100%;
     display: flex;
 }
 
-.popUpUpper {
-  height: 11.813rem;
-  background-color: #f9f9f9;
-  border-top-left-radius: 24px;
-  border-top-right-radius: 24px;
-  display: flex;
-}
 
 .popUpMobileThanks span {
   font-size: 2rem;
@@ -283,10 +283,6 @@ width: 100%;
 
 /* DESKTOP---------------------------> */
 @media screen and (min-width: 900px) {
-
-  header {
-    height: 37.5rem;
-  }
 
  .navDesk {
   width: 100%;
@@ -356,8 +352,8 @@ width: 100%;
 
 .searchInput input {
   border-radius: 20px;
-  width: 10.875;
-  height: 40px;
+  width: 10.87rem;
+  height: 2.188rem;
   background: transparent url("/icons/vector\ black.svg");
   background-repeat:no-repeat;
   background-position: 2% 50%;
@@ -383,9 +379,19 @@ width: 100%;
 .langSetting a:hover {
  color: #555;
 }
+.deskLogo img {
+  width: 240px;
+  height: 47px;
+  margin-top: 0.2rem;
+}
 
 .heroContainer {
-  height: 37.5rem;
+  height: 31.7rem;
+}
+
+.heroInfoContainer {
+  padding-top: 14rem;
+  width: 23rem;
 }
 .arrowButton {
   height: 37.8px;
@@ -440,6 +446,8 @@ width: 100%;
   border-bottom-left-radius: 24px;
   border-top-right-radius: 0px;
   display: flex;
+  background-image: url(/image/popUpPictureDesktop.jpg);
+  background-size: contain;
 }
 
 .emailInput {
