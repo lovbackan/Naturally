@@ -6,6 +6,7 @@ header {
   justify-content: space-between;
   z-index: 0;
   position: relative;
+  z-index: 10;
 }
 
 nav {
@@ -13,7 +14,12 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 10;
+  transition: 0.5s;
+  
 }
 
 .navMobile {
@@ -349,8 +355,8 @@ nav {
 
 .searchInput input {
   border-radius: 20px;
-  width: 10.875;
-  height: 40px;
+  width: 10.87rem;
+  height: 2.188rem;
   background: transparent url("/icons/vector\ black.svg");
   background-repeat:no-repeat;
   background-position: 2% 50%;

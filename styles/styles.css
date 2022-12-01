@@ -33,8 +33,6 @@ button:hover {
 a {
     color: inherit;
     font-family: "SplineSans";
-
-
 }
 
 .alignLeft {
@@ -453,8 +451,8 @@ align-items: center;
     height: 50px;
     position: absolute;
     right: 1rem;
-    top: 57.7rem;
-    z-index: 99;
+    top: 56.1rem;
+    z-index: 1;
 }
 
 .arrowContainerRight img {
