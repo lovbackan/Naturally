@@ -290,7 +290,7 @@ a {
 .productPopup.active {
     position: absolute;
     display: flex;
-    top: 41rem;
+    top: 45rem;
 }
 
 .productPopupImage {
@@ -451,7 +451,7 @@ align-items: center;
     height: 50px;
     position: absolute;
     right: 1rem;
-    top: 56.1rem;
+    top: 64.9rem;
     z-index: 1;
 }
 
@@ -508,13 +508,13 @@ align-items: center;
         margin-left: 10px;
     }
     .productPopup.active {
-        top: 38rem;
+        top: 47rem;
         
     }
 
     .productPopup {
-        width: 40rem;
-        height: 40rem;
+        width: 38rem;
+        height: 38rem;
         /* width: 53.25rem;
         height: 53.25rem; */
         position: relative;
@@ -522,8 +522,8 @@ align-items: center;
     }
 
     .productPopupImage {
-        width: 40rem;
-        height: 40rem;
+        width: 38rem;
+        height: 38rem;
         /* width: 53.25rem;
         height: 53.25rem; */
     }
@@ -550,7 +550,7 @@ align-items: center;
     .buttonContainer {
         position: absolute;
         justify-content: space-between;
-        width: 40rem;
+        width: 38rem;
         padding-left: 1rem;
         padding-right: 1rem;
         margin-bottom: 0rem;
