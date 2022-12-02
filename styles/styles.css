@@ -389,6 +389,10 @@ a {
     border-radius: 0.563rem;
 }
 
+.productBuyButton p {
+    color:white;
+}
+
 .productMiniContainer {
     display: flex;
     flex-direction: row;
