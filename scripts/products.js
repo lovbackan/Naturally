@@ -47,7 +47,7 @@ const products = [
     id: 1,
     name: "Paraply",
     englishName: "Umbrella",
-    price: 650,
+    price: 250,
     colors: [
       {
         name: "red",
@@ -91,7 +91,7 @@ const products = [
     id: 2,
     name: "Bucket hat",
     englishName: "Bucket hat",
-    price: 600,
+    price: 199,
     colors: [
       {
         name: "blue",
@@ -135,7 +135,7 @@ const products = [
     id: 3,
     name: "Regnjacka",
     englishName: "Raincoat",
-    price: 1337,
+    price: 350,
     colors: [
       {
         name: "blue",
