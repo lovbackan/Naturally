@@ -444,6 +444,7 @@ picture {
   line-height: 70.5px;
   font-size: 64px;
   width: 37rem;
+  padding: 0;
   /* width: 32rem; */
 }
 
