@@ -280,7 +280,7 @@ a {
 .productPopup {
     display: none;
     width: 20.438rem;
-    height: 31.5rem;
+    height: 34.5rem;
     border-radius: 0.563rem;
     flex-direction: column;
     background-color: #f0e9e5;
@@ -290,7 +290,7 @@ a {
 .productPopup.active {
     position: absolute;
     display: flex;
-    top: 45rem;
+    top: 44rem;
 }
 
 .productPopupImage {
@@ -569,6 +569,10 @@ align-items: center;
 .productBuyButton {
     /* width: 19.5rem; */
     width: 14rem;
+}
+
+.productBuyButton p {
+    color: white;
 }
 
     .productImageContainer {
