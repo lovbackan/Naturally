@@ -1,36 +1,6 @@
 # Naturally
 
-Hej Robin!!!
+After two months of our studies as web developers at YRGO we had our first big project where we worked with digital designers at YRGO who created a figma design for a landingpage for a fictious company. Our role as developers where to write the code, make it responsive and deploy the site.
+Created by @[lovbackan] @[robinpn].
 
-Git push test (Robin)
-
-Vad vi behöver från resten av gruppen
-
-Figma fil från DD som är klar prototyp ish.
-
-Mapp med alla bilder som kommer användas, logga etc. 
-
-Font
-
-Gör en fontfamily - ifall första fonten krashar, vad ska vara ersättningen. 
-
-Att tänka på för oss:
-----------------
-Mobile first approach.
-
-Använd em, rem etc.
-
-Att döpa klasser rimligt.
-
-Strukturera css utifrån html delarna. 
-
-Lägg kommentarer.
-
-
-SIMON TEST
-
-
-
-
-
-
+Deployed at: https://naturallly.netlify.app
